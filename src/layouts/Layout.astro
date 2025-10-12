@@ -1,3 +1,10 @@
+---
+import HeaderThis from "../components/header.jsx";
+import FooterThis from "../components/footer.jsx";
+import Main from "../components/MyLayout.jsx";
+import "../styles/global.css";
+---
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +14,9 @@
     <title>Astro Basics</title>
   </head>
   <body>
+    <HeaderThis client:load />
     <slot />
+    <FooterThis client:load />
   </body>
 </html>
 

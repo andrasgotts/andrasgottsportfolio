@@ -8,16 +8,21 @@ import Data from "./Data";
 function Card({ item }) {
   return (
     <>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+      <div className="grid grid-cols-3 grid-flow-row gap-4">
         {item.map((val) => (
-          <div key={val.id} className="grid grid-cols-4 gap-4">
-            <div className="rounded-t-lg">
+          <div
+            key={val.id}
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <div className="size-32 rounded-t-lg">
               <img src={val.img} />
             </div>
-            <div className="mb-2 text-xl font-medium leading-tight">
+            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {val.title}
             </div>
-            <div className="mb-4 text-base">{val.desc}</div>
+            <div className="font-normal text-gray-700 dark:text-gray-400">
+              {val.desc}
+            </div>
           </div>
         ))}
       </div>
@@ -37,20 +42,20 @@ function Star() {
       <div>
         {skillItems.map((val) => (
           <button
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            className="py-3 px-4 inline-flex items-center gap-x-2 -ms-px first:rounded-s-lg first:ms-0 last:rounded-e-lg text-sm font-medium focus:z-10 border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
             onClick={() => filterItems(val)}
           >
             {val}
           </button>
         ))}
         <button
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          className="py-3 px-4 inline-flex items-center gap-x-2 -ms-px first:rounded-s-lg first:ms-0 last:rounded-e-lg text-sm font-medium focus:z-10 border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
           onClick={() => setItems(Data)}
         >
           All
         </button>
       </div>
-      <div className="">
+      <div>
         <Card item={item} />
       </div>
     </div>
