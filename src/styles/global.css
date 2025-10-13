@@ -3,6 +3,12 @@
 @plugin "flyonui";
 @plugin "@iconify/tailwind4";
 
+@font-face {
+    font-family: SF;
+    src: url("../assets/fonts/SuperFrosting-R9z4o.ttf");
+}
+
 @theme {
-    --font-poppins:
+    --font-SF: SF, "sans-serif";
+    --font-poppins: "poppins", poppins;
 }

@@ -1,7 +1,7 @@
 function HeaderThis() {
   return (
     <div>
-      <header class="bg-[#c9bffd] flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0">
+      <header class="bg-[#c9bffd] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
         <nav class="mx-auto w-full px-4" aria-label="Global">
           <div class="relative md:flex md:items-center">
             <div class="flex items-center justify-between">
