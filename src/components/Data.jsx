@@ -1,9 +1,3 @@
-import { useState } from "react";
-import ReactDOM from "react-dom/client";
-import React from "react";
-
-//https://www.youtube.com/watch?v=QAJMRyN9dVk
-
 const Data = [
   {
     id: 0,

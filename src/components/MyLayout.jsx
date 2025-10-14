@@ -1,7 +1,3 @@
-import GridDistortion from "../components/GridDistortion";
-
-//template idea https://www.behance.net/gallery/195890267/THANHT-VY-PORTFOLIO?l=4#
-
 function MyLayout() {
   return (
     <>
