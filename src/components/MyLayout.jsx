@@ -5,7 +5,7 @@ function MyLayout() {
         {/*about me */}
         <div
           id="main1"
-          className="col-span-8 row-span-6 bg-[#0d0f12] border-2 border-pink-500 rounded-xl p-2"
+          className="col-span-8 row-span-6 bg-[#0d0f12] border-2 rounded-xl p-2"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
