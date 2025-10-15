@@ -31,16 +31,16 @@ function HeaderThis() {
               <div class="flex flex-col rounded-lg max-md:mt-3 max-md:border max-md:p-2 md:flex-row md:items-center md:justify-end md:ps-5 md:pe-0.5 gap-2 max-md:border-base-content/20">
                 <ul class="menu md:menu-horizontal text-base px-0 max-md:w-fit max-md:py-0 gap-2">
                   <li>
-                    <a href="/">Home</a>
+                    <a href="/andrasgottsportfolio">Home</a>
                   </li>
                   <li>
-                    <a href="/">About Me</a>
+                    <a href="/andrasgottsportfolio">About Me</a>
                   </li>
                   <li>
-                    <a href="/education">Education</a>
+                    <a href="/andrasgottsportfolio/education">Education</a>
                   </li>
                   <li>
-                    <a href="/projects">Projects</a>
+                    <a href="/andrasgottsportfolio/projects">Projects</a>
                   </li>
                   <li>
                     <a href="#">Contact</a>

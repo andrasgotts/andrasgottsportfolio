@@ -71,9 +71,9 @@ function MyLayout() {
             </div>
             <div className="card bg-rose-200">
               <figure>
-                <span className="w-38 h-25">
+                <span className="w-15 h-10">
                   <img
-                    src="/icons/c++.svg"
+                    src="andrasgottsportfolio/icons/c++.svg"
                     alt="triangle with all three sides equal"
                   />
                 </span>
@@ -224,8 +224,9 @@ function MyLayout() {
             <div className="...">AI programming</div>
             <div className="...">Languages</div>
             <div className="col-span-2 ...">Data</div>
+            <div className="...">game dev</div>
             <div className="...">Main project</div>
-            <div className="col-span-2 ...">other main</div>
+            <div className="col-span-2 ...">Testing</div>
           </div>
         </div>
       </div>

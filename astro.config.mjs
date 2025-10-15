@@ -13,6 +13,6 @@ export default defineConfig({
 
   integrations: [react()],
 
-  //site:'https://andrasgotts.github.io',
-  //base:'/andrasgottsportfolio',
+  site:'https://andrasgotts.github.io',
+  base:'/andrasgottsportfolio',
 });

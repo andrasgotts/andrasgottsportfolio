@@ -52,16 +52,6 @@ function FooterThis() {
               <span className="icon-[tabler--brand-github] size-5"></span>
             </a>
             <a
-              href="https://profile.indeed.com/?hl=en_GB&co=GB"
-              target="_blank"
-              className="link"
-              aria-label="Indeed Link"
-            >
-              <span className="size-5">
-                <img src="/icons/indeed.svg" alt="indeed icon" />
-              </span>
-            </a>
-            <a
               href="https://www.linkedin.com/in/andrasgotts"
               target="_blank"
               className="link"
