@@ -1,9 +1,9 @@
 function FooterThis() {
   return (
     <>
-      <footer className="footer bg-[#c9bffd] px-6 py-4 font-poppins">
+      <footer className="footer bg-[#0d0f12] px-6 py-4 font-poppins">
         <div className="flex w-full flex-wrap items-center justify-between">
-          <div className="flex items-center gap-2 text-xl font-bold text-base-content">
+          <div className="flex items-center gap-2 text-xl font-bold text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28.000000pt"
@@ -18,7 +18,7 @@ function FooterThis() {
               </metadata>
               <g
                 transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-                fill="#000000"
+                fill="white"
                 stroke="none"
               >
                 <path d="M770 2980 c-19 -5 -47 -11 -61 -14 -79 -18 -198 -72 -284 -131 -187 -126 -345 -347 -391 -547 -19 -80 -23 -108 -22 -153 1 -30 3 -38 5 -20 7 55 43 195 64 248 34 86 51 119 100 192 156 233 400 381 709 428 14 3 0 4 -30 4 -30 1 -71 -3 -90 -7z" />
@@ -33,11 +33,11 @@ function FooterThis() {
               </g>
             </svg>
           </div>
-          <aside className="grid-flow-col items-center">
+          <aside className="grid-flow-col items-center text-white">
             <p>
               {" "}
               ©2025{" "}
-              <a className="link link-hover font-medium" href="#">
+              <a className="link link-hover font-medium text-white" href="#">
                 Andras Gotts
               </a>{" "}
             </p>
@@ -49,7 +49,7 @@ function FooterThis() {
               className="link"
               aria-label="Github Link"
             >
-              <span className="icon-[tabler--brand-github] size-5"></span>
+              <span className="text-white icon-[tabler--brand-github] size-5"></span>
             </a>
             <a
               href="https://www.linkedin.com/in/andrasgotts"
@@ -57,7 +57,7 @@ function FooterThis() {
               className="link"
               aria-label="Linkedin Link"
             >
-              <span className="icon-[tabler--brand-linkedin] size-5"></span>
+              <span className="text-blue-500 icon-[tabler--brand-linkedin] size-5"></span>
             </a>
             <a
               href="mailto:andras.gotts@outlook.com"
@@ -65,7 +65,7 @@ function FooterThis() {
               className="link"
               aria-label="Email Link"
             >
-              <span className="icon-[tabler--mail] size-5"></span>
+              <span className="text-white icon-[tabler--mail] size-5"></span>
             </a>
           </div>
         </div>

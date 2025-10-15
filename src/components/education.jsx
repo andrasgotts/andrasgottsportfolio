@@ -1,27 +1,27 @@
 function EducationMainR() {
   return (
     <>
-      <div className="grid grid-cols-8 grid-rows-8 gap-4 bg-[#c9bffd] font-poppins">
+      <div className="grid grid-cols-8 grid-rows-8 gap-4 bg-[#0d0f12] font-poppins">
         {/*about me */}
         <div
           id="main1"
-          className="col-span-8 row-span-6 bg-[#b6aedb] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-6 bg-[#0d0f12] border-2 rounded-xl p-2"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
-              <div className="row-span-3 ... bg-rose-200 border-2 rounded-xl p-2">
+              <div className="row-span-3 ...  border-2 rounded-xl p-2">
                 <p>
                   2025 Education: Bsc Software Engineering from the University
                   of Chester
                 </p>
               </div>
-              <div className="col-span-2 ... bg-rose-200 border-2 rounded-xl p-2">
+              <div className="col-span-2 ...  border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
                 <h2 className="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Education!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 </h2>
               </div>
-              <div className="col-span-2 row-span-2 ... bg-rose-200 border-2 rounded-xl p-2">
+              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2">
                 <h1>A-Levels - 2020</h1>
                 <h2>
                   Predicated grades as exams were cancelled due to covid
@@ -75,7 +75,7 @@ function EducationMainR() {
 
                 <h2>UCAS points = 112</h2>
               </div>
-              <div className="col-span-2 row-span-2 ... bg-rose-200 border-2 rounded-xl p-2">
+              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2">
                 <h1>GCSEs - 2018</h1>
                 <div className="relative overflow-x-auto">
                   <div className="relative overflow-x-auto shadow-md sm:rounded-lg">

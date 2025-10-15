@@ -1,12 +1,12 @@
 function HeaderThis() {
   return (
     <>
-      <header class="bg-[#c9bffd] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
+      <header class="bg-[#0d0f12] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
         <nav class="mx-auto w-full px-4" aria-label="Global">
           <div class="relative md:flex md:items-center">
             <div class="flex items-center justify-between">
               <a
-                class="link text-base-content link-neutral text-xl font-bold no-underline"
+                class="link link-neutral text-xl font-bold no-underline text-[#849CE8]"
                 href="#"
               >
                 Andras Gotts
@@ -31,22 +31,38 @@ function HeaderThis() {
               <div class="flex flex-col rounded-lg max-md:mt-3 max-md:border max-md:p-2 md:flex-row md:items-center md:justify-end md:ps-5 md:pe-0.5 gap-2 max-md:border-base-content/20">
                 <ul class="menu md:menu-horizontal text-base px-0 max-md:w-fit max-md:py-0 gap-2">
                   <li>
-                    <a href="/andrasgottsportfolio">Home</a>
+                    <a href="/andrasgottsportfolio" className="text-white">
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a href="/andrasgottsportfolio">About Me</a>
+                    <a href="/andrasgottsportfolio" className="text-white">
+                      About Me
+                    </a>
                   </li>
                   <li>
-                    <a href="/andrasgottsportfolio/education">Education</a>
+                    <a
+                      href="/andrasgottsportfolio/education"
+                      className="text-white"
+                    >
+                      Education
+                    </a>
                   </li>
                   <li>
-                    <a href="/andrasgottsportfolio/projects">Projects</a>
+                    <a
+                      href="/andrasgottsportfolio/projects"
+                      className="text-white"
+                    >
+                      Projects
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#" className="text-white">
+                      Contact
+                    </a>
                   </li>
                 </ul>
-                <div class="dropdown [--adaptive:none] [--auto-close:inside] [--mega-menu:true] [--strategy:static] md:[--strategy:absolute]">
+                <div className="dropdown [--adaptive:none] [--auto-close:inside] [--mega-menu:true] [--strategy:static] md:[--strategy:absolute]">
                   <button
                     type="button"
                     class="dropdown-toggle btn btn-text text-base-content/80 dropdown-open:bg-base-content/10 dropdown-open:text-base-content max-md:px-3"
@@ -55,19 +71,19 @@ function HeaderThis() {
                     aria-label="Dropdown"
                   >
                     Projects
-                    <span class="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
+                    <span className="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
                   </button>
                   <div
-                    class="dropdown-menu dropdown-open:opacity-100 start-0 top-full hidden w-full min-w-60 rounded-lg py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute max-md:border max-md:shadow-none max-md:border-base-content/20"
+                    className="dropdown-menu dropdown-open:opacity-100 start-0 top-full hidden w-full min-w-60 rounded-lg py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute max-md:border max-md:shadow-none max-md:border-base-content/20"
                     role="menu"
                     aria-orientation="vertical"
                   >
-                    <ul class="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 p-0">
+                    <ul className="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 p-0">
                       <li>
                         <a href="#" class="menu-title">
                           Services
                         </a>
-                        <ul class="menu">
+                        <ul className="menu">
                           <li>
                             <a href="#">Design Solutions</a>
                           </li>
@@ -83,10 +99,10 @@ function HeaderThis() {
                         </ul>
                       </li>
                       <li>
-                        <a href="#" class="menu-title">
+                        <a href="#" className="menu-title">
                           Corporate Solutions
                         </a>
-                        <ul class="menu">
+                        <ul className="menu">
                           <li>
                             <a href="#">CRM</a>
                           </li>
@@ -102,10 +118,10 @@ function HeaderThis() {
                         </ul>
                       </li>
                       <li>
-                        <a href="#" class="menu-title">
+                        <a href="#" className="menu-title">
                           Product Offerings
                         </a>
-                        <ul class="menu">
+                        <ul className="menu">
                           <li>
                             <a href="#">UI Kits</a>
                           </li>
@@ -116,10 +132,10 @@ function HeaderThis() {
                             <a href="#">WordPress Plugins</a>
                           </li>
                           <li>
-                            <a href="#" class="menu-title">
+                            <a href="#" className="menu-title">
                               Open Source Projects
                             </a>
-                            <ul class="menu">
+                            <ul className="menu">
                               <li>
                                 <a href="#">Authentication System</a>
                               </li>
