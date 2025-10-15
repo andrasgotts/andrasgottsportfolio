@@ -3,6 +3,7 @@ import HeaderThis from "../components/header.jsx";
 import FooterThis from "../components/footer.jsx";
 import Main from "../components/MyLayout.jsx";
 import "../styles/global.css";
+import ProjectsR from "../components/projects";
 ---
 
 <html lang="en">
@@ -15,7 +16,7 @@ import "../styles/global.css";
   </head>
   <body>
     <HeaderThis client:load />
-    <slot />
+    <ProjectsR client:load />
     <FooterThis client:load />
   </body>
 </html>

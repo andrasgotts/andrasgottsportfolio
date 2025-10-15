@@ -71,10 +71,15 @@ function MyLayout() {
             </div>
             <div className="card bg-rose-200">
               <figure>
-                <span class="icon-[tabler--brand-github] size-25"></span>
+                <span className="size-25">
+                  <img
+                    src="/icons/c++.svg"
+                    alt="triangle with all three sides equal"
+                  />
+                </span>
               </figure>
               <div className="card-body">
-                <h5 className="card-title mb-2.5">c++</h5>
+                <h5 className="card-title mb-2.5">C++</h5>
                 <p>
                   Visit ancient ruins, stunning basilicas, and enjoy delicious
                   Italian cuisine.
@@ -91,7 +96,7 @@ function MyLayout() {
                 <span class="icon-[tabler--brand-python] size-25"></span>
               </figure>
               <div className="card-body">
-                <h5 className="card-title mb-2.5">python</h5>
+                <h5 className="card-title mb-2.5">Python</h5>
                 <p>
                   Explore the vibrant city of Sydney, where every corner tells a
                   story.
