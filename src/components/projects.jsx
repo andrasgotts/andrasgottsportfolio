@@ -1,11 +1,11 @@
 function ProjectsR() {
   return (
     <>
-      <div className="grid grid-cols-8 grid-rows-20 gap-4 bg-[#0d0f12] font-poppins">
+      <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] font-poppins">
         {/*about me */}
         <div
           id="main1"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -14,7 +14,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ...  border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Languages
                 </h2>
               </div>
@@ -33,7 +33,7 @@ function ProjectsR() {
         {/* main2 */}
         <div
           id="main2"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -42,7 +42,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Web Development
                 </h2>
               </div>
@@ -61,7 +61,7 @@ function ProjectsR() {
         {/* main3 */}
         <div
           id="main3"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -70,7 +70,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Testing
                 </h2>
               </div>
@@ -89,7 +89,7 @@ function ProjectsR() {
         {/* main4 */}
         <div
           id="main4"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -98,7 +98,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Data analysis
                 </h2>
               </div>
@@ -117,7 +117,7 @@ function ProjectsR() {
         {/* main5 */}
         <div
           id="main5"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -126,7 +126,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Game Dev
                 </h2>
               </div>
@@ -145,7 +145,7 @@ function ProjectsR() {
         {/* main6 */}
         <div
           id="main6"
-          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -154,7 +154,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   AI programming
                 </h2>
               </div>

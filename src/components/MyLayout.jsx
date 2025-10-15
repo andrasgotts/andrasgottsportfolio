@@ -1,18 +1,18 @@
 function MyLayout() {
   return (
     <>
-      <div className="grid grid-cols-8 grid-rows-20 gap-4 bg-[#0d0f12] font-poppins text-lg">
+      <div className="grid grid-cols-8 grid-rows-19 gap-4 bg-[#0d0f12] font-poppins text-lg">
         {/*about me */}
         <div
           id="main1"
-          className="col-span-8 row-span-6 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-6 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
-              <div className="row-span-3 ...  border-2 rounded-xl p-2">
+              <div className="row-span-3 ...  border-2 rounded-xl p-2 text-white">
                 images?
               </div>
-              <div className="col-span-2 ...  border-2 rounded-xl p-2">
+              <div className="col-span-2 ...  border-2 rounded-xl p-2 text-white">
                 <h1>Hi, I'm Andras Gotts</h1>
                 <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   <span className="text-[#00ce7c]">S</span>
@@ -34,10 +34,10 @@ function MyLayout() {
                   <span className="text-[#00ce7c]">r</span>
                 </h2>
               </div>
-              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2">
+              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2 text-white">
                 <p>beepidy boop</p>
               </div>
-              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2">
+              <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2 text-white">
                 <p>
                   Education: Bsc Software Engineering from the University of
                   Chester
@@ -49,174 +49,69 @@ function MyLayout() {
         {/* Skills */}
         <div
           id="main2"
-          className="col-span-8 row-span-6 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-6 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <h1 className="text-[#c91b68] text-4xl">Skills</h1>
-          <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full">
-            <div className="card bg-[#0d0f12]">
+          <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
+            <div className="card bg-[#0d0f12] ">
               <figure>
-                <span class="text-white icon-[tabler--brand-git] size-25"></span>
+                <span className="text-white icon-[tabler--brand-git] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">git</h5>
-                <p>
-                  Discover iconic landmarks, world-class museums, and exquisite
-                  cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span className="text-white w-15 h-10">
+                <span className="text-white bg-white w-15 h-10">
                   <img
                     src="andrasgottsportfolio/icons/c++.svg"
                     alt="triangle with all three sides equal"
+                    className="text-white"
                   />
                 </span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">C++</h5>
-                <p>
-                  Visit ancient ruins, stunning basilicas, and enjoy delicious
-                  Italian cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--brand-python] size-25"></span>
+                <span className="text-white icon-[tabler--brand-python] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">Python</h5>
-                <p>
-                  Explore the vibrant city of Sydney, where every corner tells a
-                  story.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--sql] size-25"></span>
+                <span className="text-white icon-[tabler--sql] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">SQL</h5>
-                <p>
-                  Discover iconic landmarks, world-class museums, and exquisite
-                  cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--brand-react] size-25"></span>
+                <span className="text-white icon-[tabler--brand-react] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">React</h5>
-                <p>
-                  Visit ancient ruins, stunning basilicas, and enjoy delicious
-                  Italian cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
+            </div>
+          </div>
+          <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
+            <div className="card bg-[#0d0f12]">
+              <figure>
+                <span className="text-white icon-[tabler--brand-typescript] size-25"></span>
+              </figure>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--brand-typescript] size-25"></span>
+                <span className="text-white icon-[tabler--brand-javascript] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">typescript</h5>
-                <p>
-                  Explore the vibrant city of Sydney, where every corner tells a
-                  story.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--brand-javascript] size-25"></span>
+                <span className="text-white icon-[tabler--brand-torchain] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">javascript</h5>
-                <p>
-                  Discover iconic landmarks, world-class museums, and exquisite
-                  cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span class="text-white icon-[tabler--brand-torchain] size-25"></span>
+                <span className="text-white icon-[tabler--letter-r-small] size-25"></span>
               </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">pytorch</h5>
-                <p>
-                  Visit ancient ruins, stunning basilicas, and enjoy delicious
-                  Italian cuisine.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
-            </div>
-            <div className="card bg-[#0d0f12]">
-              <figure>
-                <span class="text-white icon-[tabler--letter-r-small] size-25"></span>
-              </figure>
-              <div className="card-body">
-                <h5 className="card-title mb-2.5">r</h5>
-                <p>
-                  Explore the vibrant city of Sydney, where every corner tells a
-                  story.
-                </p>
-              </div>
-              <div className="card-footer">
-                <p className="text-base-content/50 text-sm">
-                  Card text content
-                </p>
-              </div>
             </div>
           </div>
         </div>
         {/*Projects */}
         <div
           id="main3"
-          className="col-span-8 row-span-6 row-start-13 bg-[#0d0f12] border-2 rounded-xl p-2"
+          className="col-span-8 row-span-6 row-start-13 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
           <div className="grid grid-cols-3 gap-4">
             <div className="...">
