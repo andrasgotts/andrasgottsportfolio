@@ -1,4 +1,7 @@
 function FooterThis() {
+  const btnClick = (mylink) => {
+    window.open(mylink);
+  };
   return (
     <>
       <footer className="footer bg-[#0d0f12] px-6 py-4 font-poppins">
@@ -67,6 +70,26 @@ function FooterThis() {
             >
               <span className="text-white icon-[tabler--mail] size-5"></span>
             </a>
+
+            {/*<!-- Text -->*/}
+            <div class="flex w-full flex-wrap gap-2">
+              <button
+                class="btn btn-circle btn-text [--btn-color:#0a66c2]"
+                aria-label="Linkedin Outline Icon Button"
+                onClick={() =>
+                  btnClick("https://www.linkedin.com/in/andrasgotts")
+                }
+              >
+                <span class="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
+              </button>
+              <button
+                class="btn btn-circle btn-text [--btn-color:#2b3137]"
+                aria-label="Github Outline Icon Button"
+                onClick={() => btnClick("https://github.com/andrasgotts")}
+              >
+                <span class="icon-[tabler--brand-github] size-5 shrink-0"></span>
+              </button>
+            </div>
           </div>
         </div>
       </footer>

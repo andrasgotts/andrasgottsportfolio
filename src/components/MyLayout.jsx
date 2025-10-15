@@ -1,4 +1,7 @@
 function MyLayout() {
+  const btnClick = (mylink) => {
+    window.open(mylink, "_self");
+  };
   return (
     <>
       <div className="grid grid-cols-8 grid-rows-19 gap-4 bg-[#0d0f12] font-poppins text-lg">
@@ -14,7 +17,7 @@ function MyLayout() {
               </div>
               <div className="col-span-2 ...  border-2 rounded-xl p-2 text-white">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-slate-800 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   <span className="text-[#00ce7c]">S</span>
                   <span className="text-[#00d07e]">o</span>
                   <span className="text-[#01d37f]">f</span>
@@ -113,16 +116,126 @@ function MyLayout() {
           id="main3"
           className="col-span-8 row-span-6 row-start-13 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
         >
-          <div className="grid grid-cols-3 gap-4">
-            <div className="...">
-              <a href="/projects">Web Dev</a>
+          <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
+            <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
+              <div className="card bg-primary text-primary-content">
+                <button
+                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
+                >
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Web Dev
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </button>
+              </div>
             </div>
-            <div className="...">AI programming</div>
-            <div className="...">Languages</div>
-            <div className="col-span-2 ...">Data</div>
-            <div className="...">game dev</div>
-            <div className="...">Main project</div>
-            <div className="col-span-2 ...">Testing</div>
+            <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      AI programming
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Languages
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Data Analysis
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Game Dev
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Main project
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
+              <button
+                onClick={() => btnClick("/andrasgottsportfolio/projects")}
+              >
+                <div className="card bg-primary text-primary-content">
+                  <div className="card-body">
+                    <h5 className="card-title text-primary-content mb-2.5">
+                      Testing
+                    </h5>
+                    <p>
+                      Enhance customer satisfaction by providing timely and
+                      effective support solutions.
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
