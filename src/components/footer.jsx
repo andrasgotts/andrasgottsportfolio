@@ -2,6 +2,9 @@ function FooterThis() {
   const btnClick = (mylink) => {
     window.open(mylink);
   };
+  const themailto = () => {
+    window.location.href = "mailto:andras.gotts@outlook.com";
+  };
   return (
     <>
       <footer className="footer bg-[#0d0f12] px-6 py-4 font-poppins">
@@ -45,51 +48,30 @@ function FooterThis() {
               </a>{" "}
             </p>
           </aside>
-          <div className="flex h-5 gap-4">
-            <a
-              href="https://github.com/andrasgotts"
-              target="_blank"
-              className="link"
-              aria-label="Github Link"
+          <div className="flex h-5 gap-2">
+            <button
+              class="btn btn-circle btn-text [--btn-color:#2b3137]"
+              aria-label="Github Outline Icon Button"
+              onClick={() => btnClick("https://github.com/andrasgotts")}
             >
-              <span className="text-white icon-[tabler--brand-github] size-5"></span>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/andrasgotts"
-              target="_blank"
-              className="link"
-              aria-label="Linkedin Link"
+              <span class="icon-[tabler--brand-github] size-5 shrink-0"></span>
+            </button>
+            <button
+              class="btn btn-circle btn-text [--btn-color:#0a66c2]"
+              aria-label="Linkedin Outline Icon Button"
+              onClick={() =>
+                btnClick("https://www.linkedin.com/in/andrasgotts")
+              }
             >
-              <span className="text-blue-500 icon-[tabler--brand-linkedin] size-5"></span>
-            </a>
-            <a
-              href="mailto:andras.gotts@outlook.com"
-              target="_blank"
-              className="link"
-              aria-label="Email Link"
+              <span class="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
+            </button>
+            <button
+              class="btn btn-circle btn-text [--btn-color:#2b3137]"
+              aria-label="mail"
+              onClick={themailto}
             >
-              <span className="text-white icon-[tabler--mail] size-5"></span>
-            </a>
-
-            {/*<!-- Text -->*/}
-            <div class="flex w-full flex-wrap gap-2">
-              <button
-                class="btn btn-circle btn-text [--btn-color:#0a66c2]"
-                aria-label="Linkedin Outline Icon Button"
-                onClick={() =>
-                  btnClick("https://www.linkedin.com/in/andrasgotts")
-                }
-              >
-                <span class="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
-              </button>
-              <button
-                class="btn btn-circle btn-text [--btn-color:#2b3137]"
-                aria-label="Github Outline Icon Button"
-                onClick={() => btnClick("https://github.com/andrasgotts")}
-              >
-                <span class="icon-[tabler--brand-github] size-5 shrink-0"></span>
-              </button>
-            </div>
+              <span class="icon-[tabler--mail] size-5 shrink-0"></span>
+            </button>
           </div>
         </div>
       </footer>
