@@ -71,7 +71,7 @@ function MyLayout() {
             </div>
             <div className="card bg-rose-200">
               <figure>
-                <span className="size-25">
+                <span className="w-38 h-25">
                   <img
                     src="/icons/c++.svg"
                     alt="triangle with all three sides equal"
@@ -218,13 +218,14 @@ function MyLayout() {
           className="col-span-8 row-span-6 row-start-13 bg-[#b6aedb] border-2 rounded-xl p-2"
         >
           <div className="grid grid-cols-3 gap-4">
-            <div className="...">Project01</div>
-            <div className="...">Project02</div>
-            <div className="...">Project03</div>
-            <div className="col-span-2 ...">Project04</div>
-            <div className="...">Project05</div>
-            <div className="...">Project06</div>
-            <div className="col-span-2 ...">Project07</div>
+            <div className="...">
+              <a href="/projects">Web Dev</a>
+            </div>
+            <div className="...">AI programming</div>
+            <div className="...">Languages</div>
+            <div className="col-span-2 ...">Data</div>
+            <div className="...">Main project</div>
+            <div className="col-span-2 ...">other main</div>
           </div>
         </div>
       </div>

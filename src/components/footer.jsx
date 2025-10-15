@@ -43,13 +43,38 @@ function FooterThis() {
             </p>
           </aside>
           <div className="flex h-5 gap-4">
-            <a href="#" className="link" aria-label="Github Link">
+            <a
+              href="https://github.com/andrasgotts"
+              target="_blank"
+              className="link"
+              aria-label="Github Link"
+            >
               <span className="icon-[tabler--brand-github] size-5"></span>
             </a>
-            <a href="#" className="link" aria-label="Facebook Link">
+            <a
+              href="https://profile.indeed.com/?hl=en_GB&co=GB"
+              target="_blank"
+              className="link"
+              aria-label="Indeed Link"
+            >
+              <span className="size-5">
+                <img src="/icons/indeed.svg" alt="indeed icon" />
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/andrasgotts"
+              target="_blank"
+              className="link"
+              aria-label="Linkedin Link"
+            >
               <span className="icon-[tabler--brand-linkedin] size-5"></span>
             </a>
-            <a href="#" className="link" aria-label="Google Link">
+            <a
+              href="mailto:andras.gotts@outlook.com"
+              target="_blank"
+              className="link"
+              aria-label="Email Link"
+            >
               <span className="icon-[tabler--mail] size-5"></span>
             </a>
           </div>
