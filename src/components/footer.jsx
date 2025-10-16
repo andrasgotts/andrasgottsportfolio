@@ -50,27 +50,27 @@ function FooterThis() {
           </aside>
           <div className="flex h-5 gap-2">
             <button
-              class="btn btn-circle btn-text [--btn-color:#2b3137]"
+              className="btn btn-circle btn-text [--btn-color:#2b3137]"
               aria-label="Github Outline Icon Button"
               onClick={() => btnClick("https://github.com/andrasgotts")}
             >
-              <span class="icon-[tabler--brand-github] size-5 shrink-0"></span>
+              <span className="icon-[tabler--brand-github] size-5 shrink-0"></span>
             </button>
             <button
-              class="btn btn-circle btn-text [--btn-color:#0a66c2]"
+              className="btn btn-circle btn-text [--btn-color:#0a66c2]"
               aria-label="Linkedin Outline Icon Button"
               onClick={() =>
                 btnClick("https://www.linkedin.com/in/andrasgotts")
               }
             >
-              <span class="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
+              <span className="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
             </button>
             <button
-              class="btn btn-circle btn-text [--btn-color:#2b3137]"
+              className="btn btn-circle btn-text [--btn-color:#2b3137]"
               aria-label="mail"
               onClick={themailto}
             >
-              <span class="icon-[tabler--mail] size-5 shrink-0"></span>
+              <span className="icon-[tabler--mail] size-5 shrink-0"></span>
             </button>
           </div>
         </div>

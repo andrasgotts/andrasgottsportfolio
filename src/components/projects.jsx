@@ -14,7 +14,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ...  border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Languages
                 </h2>
               </div>
@@ -42,7 +42,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Web Development
                 </h2>
               </div>
@@ -70,7 +70,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Testing
                 </h2>
               </div>
@@ -98,7 +98,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Data analysis
                 </h2>
               </div>
@@ -126,7 +126,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   Game Dev
                 </h2>
               </div>
@@ -154,7 +154,7 @@ function ProjectsR() {
               </div>
               <div className="col-span-2 ... border-2 rounded-xl p-2">
                 <h1>Hi, I'm Andras Gotts</h1>
-                <h2 class="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
                   AI programming
                 </h2>
               </div>

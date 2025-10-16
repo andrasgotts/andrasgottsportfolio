@@ -1,35 +1,35 @@
 function HeaderThis() {
   return (
     <>
-      <header class="bg-[#0d0f12] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
-        <nav class="mx-auto w-full px-4" aria-label="Global">
-          <div class="relative md:flex md:items-center">
-            <div class="flex items-center justify-between">
+      <header className="bg-[#0d0f12] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
+        <nav className="mx-auto w-full px-4" aria-label="Global">
+          <div className="relative md:flex md:items-center">
+            <div className="flex items-center justify-between">
               <a
-                class="link link-neutral text-xl font-bold no-underline text-[#849CE8]"
+                className="link link-neutral text-xl font-bold no-underline text-[#849CE8]"
                 href="/andrasgottsportfolio"
               >
                 Andras Gotts
               </a>
-              <div class="md:hidden">
+              <div className="md:hidden">
                 <button
                   type="button"
-                  class="collapse-toggle btn btn-outline btn-secondary btn-sm btn-square"
+                  className="collapse-toggle btn btn-outline btn-secondary btn-sm btn-square"
                   data-collapse="#navbar-mega-menu-click"
                   aria-controls="navbar-mega-menu-click"
                   aria-label="Toggle navigation"
                 >
-                  <span class="icon-[tabler--menu-2] collapse-open:hidden size-4"></span>
-                  <span class="icon-[tabler--x] collapse-open:block hidden size-4"></span>
+                  <span className="icon-[tabler--menu-2] collapse-open:hidden size-4"></span>
+                  <span className="icon-[tabler--x] collapse-open:block hidden size-4"></span>
                 </button>
               </div>
             </div>
             <div
               id="navbar-mega-menu-click"
-              class="collapse hidden grow basis-full overflow-hidden rounded-lg transition-all duration-300 md:block"
+              className="collapse hidden grow basis-full overflow-hidden rounded-lg transition-all duration-300 md:block"
             >
-              <div class="flex flex-col rounded-lg max-md:mt-3 max-md:border max-md:p-2 md:flex-row md:items-center md:justify-end md:ps-5 md:pe-0.5 gap-2 max-md:border-base-content/20">
-                <ul class="menu md:menu-horizontal text-base px-0 max-md:w-fit max-md:py-0 gap-2">
+              <div className="flex flex-col rounded-lg max-md:mt-3 max-md:border max-md:p-2 md:flex-row md:items-center md:justify-end md:ps-5 md:pe-0.5 gap-2 max-md:border-base-content/20">
+                <ul className="menu md:menu-horizontal text-base px-0 max-md:w-fit max-md:py-0 gap-2">
                   <li>
                     <a href="/andrasgottsportfolio" className="text-white">
                       Home
@@ -65,7 +65,7 @@ function HeaderThis() {
                 <div className="dropdown [--adaptive:none] [--auto-close:inside] [--mega-menu:true] [--strategy:static] md:[--strategy:absolute]">
                   <button
                     type="button"
-                    class="dropdown-toggle btn btn-text text-base-content/80 dropdown-open:bg-base-content/10 dropdown-open:text-base-content max-md:px-3"
+                    className="dropdown-toggle btn btn-text text-base-content/80 dropdown-open:bg-base-content/10 dropdown-open:text-base-content max-md:px-3"
                     aria-haspopup="menu"
                     aria-expanded="false"
                     aria-label="Dropdown"
@@ -80,7 +80,7 @@ function HeaderThis() {
                   >
                     <ul className="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 p-0">
                       <li>
-                        <a href="#" class="menu-title">
+                        <a href="#" className="menu-title">
                           Services
                         </a>
                         <ul className="menu">
