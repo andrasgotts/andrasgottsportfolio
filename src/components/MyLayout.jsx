@@ -63,9 +63,9 @@ function MyLayout() {
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span className="text-white bg-white w-15 h-10">
+                <span className="size-25">
                   <img
-                    src="andrasgottsportfolio/icons/c++.svg"
+                    src="andrasgottsportfolio/icons/c.svg"
                     alt="triangle with all three sides equal"
                     className="text-white"
                   />
@@ -101,7 +101,13 @@ function MyLayout() {
             </div>
             <div className="card bg-[#0d0f12]">
               <figure>
-                <span className="text-white icon-[tabler--brand-torchain] size-25"></span>
+                <span className="size-25">
+                  <img
+                    src="andrasgottsportfolio/icons/pytorch.svg"
+                    alt="triangle with all three sides equal"
+                    className="text-white"
+                  />
+                </span>
               </figure>
             </div>
             <div className="card bg-[#0d0f12]">
