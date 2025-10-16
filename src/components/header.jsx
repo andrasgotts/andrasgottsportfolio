@@ -7,7 +7,7 @@ function HeaderThis() {
             <div class="flex items-center justify-between">
               <a
                 class="link link-neutral text-xl font-bold no-underline text-[#849CE8]"
-                href="#"
+                href="/andrasgottsportfolio"
               >
                 Andras Gotts
               </a>
