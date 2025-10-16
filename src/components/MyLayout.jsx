@@ -1,5 +1,4 @@
 import SplashCursor from "./SplashCursor";
-import LiquidEther from "./LiquidEther";
 
 function MyLayout() {
   const btnClick = (mylink) => {
@@ -7,26 +6,6 @@ function MyLayout() {
   };
   return (
     <>
-      <div style={{ width: "100%", height: 600, position: "relative" }}>
-        <LiquidEther
-          colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
-          mouseForce={20}
-          cursorSize={100}
-          isViscous={false}
-          viscous={30}
-          iterationsViscous={32}
-          iterationsPoisson={32}
-          resolution={0.5}
-          isBounce={false}
-          autoDemo={true}
-          autoSpeed={0.5}
-          autoIntensity={2.2}
-          takeoverDuration={0.25}
-          autoResumeDelay={3000}
-          autoRampDuration={0.6}
-        />
-        <SplashCursor />
-      </div>
       <div className="grid grid-cols-8 grid-rows-17 gap-4 bg-[#0d0f12] font-poppins text-lg">
         {/*about me */}
         <div
