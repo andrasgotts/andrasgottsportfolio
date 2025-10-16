@@ -19,7 +19,7 @@ function MyLayout() {
           />
         </div>
 
-        <div className="grid grid-cols-8 grid-rows-17 gap-4 font-poppins text-lg z-10 bg-black">
+        <div className="grid grid-cols-8 grid-rows-17 gap-4 font-poppins text-lg z-10 bg-[#0d0f12]">
           {/*about me */}
           <div
             id="main1"
