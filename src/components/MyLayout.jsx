@@ -23,7 +23,7 @@ function MyLayout() {
           {/*about me */}
           <div
             id="main1"
-            className="col-span-8 row-span-6 border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-6 border-2 rounded-xl p-2 text-white"
           >
             <div>
               <div className="grid grid-flow-col grid-rows-3 gap-4">
@@ -67,7 +67,7 @@ function MyLayout() {
           {/* Skills */}
           <div
             id="main2"
-            className="col-span-8 row-span-4 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-4 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
             <h1 className="text-[#c91b68] text-4xl">Skills</h1>
             <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
@@ -135,7 +135,7 @@ function MyLayout() {
           {/*Projects */}
           <div
             id="main3"
-            className="col-span-8 row-span-6 row-start-11 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-6 row-start-11 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
             <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
               <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
