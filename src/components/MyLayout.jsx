@@ -1,9 +1,12 @@
+import SplashCursor from "./SplashCursor";
+
 function MyLayout() {
   const btnClick = (mylink) => {
     window.open(mylink, "_self");
   };
   return (
     <>
+      <SplashCursor />
       <div className="grid grid-cols-8 grid-rows-17 gap-4 bg-[#0d0f12] font-poppins text-lg">
         {/*about me */}
         <div

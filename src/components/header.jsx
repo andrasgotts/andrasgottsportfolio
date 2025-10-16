@@ -1,6 +1,9 @@
+import SplashCursor from "./SplashCursor";
+
 function HeaderThis() {
   return (
     <>
+      <SplashCursor />
       <header className="bg-[#0d0f12] font-poppins flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 ">
         <nav className="mx-auto w-full px-4" aria-label="Global">
           <div className="relative md:flex md:items-center">
