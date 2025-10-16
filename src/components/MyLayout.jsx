@@ -12,10 +12,10 @@ function MyLayout() {
           <Galaxy
             mouseRepulsion={false}
             mouseInteraction={false}
-            density={1.5}
-            glowIntensity={0.5}
-            saturation={0.8}
-            hueShift={240}
+            density={0.3}
+            glowIntensity={0.2}
+            saturation={1}
+            hueShift={180}
           />
         </div>
 
