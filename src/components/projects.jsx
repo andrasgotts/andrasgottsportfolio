@@ -1,18 +1,9 @@
-import Galaxy from "./Galaxy";
 function ProjectsR() {
   return (
     <>
       <div className="relative">
-        <div className="w-full h-full absolute z-2 pointer-events-none">
-          <Galaxy
-            mouseRepulsion={false}
-            mouseInteraction={false}
-            density={0.3}
-            glowIntensity={0.2}
-            saturation={1}
-            hueShift={180}
-          />
-        </div>
+        {/* background??? */}
+        <div className="w-full h-full absolute z-2 pointer-events-none"></div>
         <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
           {/*about me */}
           <div
