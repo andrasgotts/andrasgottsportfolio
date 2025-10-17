@@ -1,0 +1,34 @@
+---
+import HeaderThis from "../components/header.jsx";
+import FooterThis from "../components/footer.jsx";
+import "../styles/global.css";
+import ResumeMainR from "../components/resume";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/andrasgottsportfolio/icons/extension_icon.png"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title transition:animate="fade">Andras Portfolio</title>
+  </head>
+  <body>
+    <HeaderThis client:load />
+    <ResumeMainR client:load />
+    <FooterThis client:load />
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>

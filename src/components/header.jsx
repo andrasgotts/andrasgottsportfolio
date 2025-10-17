@@ -5,12 +5,12 @@ function HeaderThis() {
     <>
       <SplashCursor />
       <header className="bg-[#0d0f12] font-poppins">
-        <nav class="navbar rounded-box shadow-base-300/20 shadow-sm">
-          <div class="w-full md:flex md:items-center md:gap-2">
-            <div class="flex items-center justify-between">
-              <div class="navbar-start items-center justify-between max-md:w-full">
+        <nav className="navbar rounded-box shadow-base-300/20 shadow-sm">
+          <div className="w-full md:flex md:items-center md:gap-2">
+            <div className="flex items-center justify-between">
+              <div className="navbar-start items-center justify-between max-md:w-full">
                 <a
-                  class="link text-[#849CE8] link-neutral text-xl font-bold no-underline text-nowrap"
+                  className="link text-[#849CE8] link-neutral text-xl font-bold no-underline text-nowrap"
                   href="/andrasgottsportfolio"
                 >
                   Andras Gotts
@@ -19,9 +19,9 @@ function HeaderThis() {
             </div>
             <div
               id="default-navbar-collapse"
-              class="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full"
+              className="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full"
             >
-              <ul class="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
+              <ul className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
                 <li>
                   <a href="/andrasgottsportfolio" className="text-white">
                     Home
@@ -36,7 +36,7 @@ function HeaderThis() {
                   </a>
                 </li>
                 <li>
-                  <a href="/andrasgottsportfolio" className="text-white">
+                  <a href="/andrasgottsportfolio/resume" className="text-white">
                     Resume
                   </a>
                 </li>
