@@ -1,6 +1,14 @@
 import SplashCursor from "./SplashCursor";
+import ResumePDF from "../assets/AndrasGottsCV2.pdf";
 
 function MyLayout() {
+  const DownloadButton = (props) => {
+    const downloadFile = () => {
+      window.location.href =
+        "https://andrasgotts.github.io/andrasgottsportfolio//src/assets/AndrasGottsCV2.pdf";
+    };
+    return <button onClick={downloadFile} />;
+  };
   const btnClick = (mylink) => {
     window.open(mylink, "_self");
   };
@@ -10,7 +18,7 @@ function MyLayout() {
         {/* background??? */}
         <div className="w-full h-full absolute z-2 pointer-events-none"></div>
 
-        <div className="grid grid-cols-8 grid-rows-17 gap-4 font-poppins text-lg z-10 bg-[#0d0f12]">
+        <div className="grid grid-cols-8 grid-rows-16 gap-4 font-poppins text-lg z-10 bg-[#0d0f12]">
           {/*about me */}
           <div
             id="main1"
@@ -29,6 +37,10 @@ function MyLayout() {
                 </div>
                 <div className="col-span-2 col-start-4 row-span-2 row-start-4...  border-2 rounded-xl p-2 text-white">
                   <p>beepidy boop</p>
+                  <a href={ResumePDF} download="ResumePDF" target="_blank">
+                    <button>My Example Doc</button>
+                  </a>
+                  <DownloadButton />
                 </div>
               </div>
             </div>
@@ -36,7 +48,7 @@ function MyLayout() {
           {/* Skills */}
           <div
             id="main2"
-            className="col-span-6 col-start-2 row-span-4 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-3 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
             <h1 className="text-[#c91b68] text-4xl">Skills</h1>
             <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
@@ -185,7 +197,7 @@ function MyLayout() {
           {/*Projects */}
           <div
             id="main3"
-            className="col-span-6 col-start-2 row-span-6 row-start-11 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-6 row-start-10 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
             <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
               <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
@@ -194,13 +206,34 @@ function MyLayout() {
                     onClick={() => btnClick("/andrasgottsportfolio/projects")}
                   >
                     <div className="card-body">
+                      {/*"image"*/}
+
                       <h5 className="card-title text-primary-content mb-2.5">
+                        {/*"title"*/}
                         Web Dev
                       </h5>
                       <p>
+                        {/*"short description"*/}
                         Enhance customer satisfaction by providing timely and
                         effective support solutions.
                       </p>
+                      <p>{/*"skills/things used"*/}</p>
+                      <div className="flex">
+                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                          react
+                        </button>
+                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                          javascript
+                        </button>
+                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                          tailwind
+                        </button>
+                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                          astro
+                        </button>
+                      </div>
+
+                      <p>{/*"source? githublink"*/}</p>
                     </div>
                   </button>
                 </div>
