@@ -3,7 +3,7 @@ function ProjectGroups() {
     <>
       <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
         <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
-          <div className="card bg-primary text-primary-content w-fit h-fit">
+          <div className="card bg-primary text-primary-content w-full h-full">
             <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 {/*"image"*/}
@@ -18,7 +18,7 @@ function ProjectGroups() {
                   effective support solutions.
                 </p>
                 <p>{/*"skills/things used"*/}</p>
-                <div className="flex">
+                <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     react
                   </button>
@@ -33,14 +33,35 @@ function ProjectGroups() {
                   </button>
                 </div>
 
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    .net
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    c#
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    razor pages
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    ssms
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    plesk
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    linq+sql
+                  </button>
+                </div>
+
                 <p>{/*"source? githublink"*/}</p>
               </div>
             </button>
           </div>
         </div>
         <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   AI programming
@@ -49,13 +70,30 @@ function ProjectGroups() {
                   Enhance customer satisfaction by providing timely and
                   effective support solutions.
                 </p>
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    python
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    pytorch
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    hugging face
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    GAN,DCGAN,CYCLE-GAN
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    diffusion
+                  </button>
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+          </div>
         </div>
         <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   Languages
@@ -64,13 +102,24 @@ function ProjectGroups() {
                   Enhance customer satisfaction by providing timely and
                   effective support solutions.
                 </p>
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    c++
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    python
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    future (c#)
+                  </button>
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+          </div>
         </div>
         <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   Data Analysis
@@ -80,12 +129,26 @@ function ProjectGroups() {
                   effective support solutions.
                 </p>
               </div>
-            </div>
-          </button>
+              <div className="flex flex-wrap">
+                <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                  python
+                </button>
+                <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                  pandas
+                </button>
+                <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                  sql
+                </button>
+                <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                  ssms
+                </button>
+              </div>
+            </button>
+          </div>
         </div>
         <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   Game Dev
@@ -94,13 +157,21 @@ function ProjectGroups() {
                   Enhance customer satisfaction by providing timely and
                   effective support solutions.
                 </p>
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    unity
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    godot
+                  </button>
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+          </div>
         </div>
         <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   Main project
@@ -110,12 +181,12 @@ function ProjectGroups() {
                   effective support solutions.
                 </p>
               </div>
-            </div>
-          </button>
+            </button>
+          </div>
         </div>
         <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-          <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-            <div className="card bg-primary text-primary-content">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
                   Testing
@@ -124,9 +195,17 @@ function ProjectGroups() {
                   Enhance customer satisfaction by providing timely and
                   effective support solutions.
                 </p>
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    c++ test framework
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    auditing
+                  </button>
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+          </div>
         </div>
       </div>
     </>
