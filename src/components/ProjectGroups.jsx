@@ -1,7 +1,7 @@
 function ProjectGroups() {
   return (
     <>
-      <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
+      <div className="grid grid-cols-4 grid-rows-3 gap-4 rounded-xl p-2">
         <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
           <div className="card bg-primary text-primary-content w-full h-full">
             <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
@@ -67,8 +67,11 @@ function ProjectGroups() {
                   AI programming
                 </h5>
                 <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  <ul className="list-disc">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -81,7 +84,13 @@ function ProjectGroups() {
                     hugging face
                   </button>
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    GAN,DCGAN,CYCLE-GAN
+                    GAN
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    DCGAN
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    CYCLE-GAN
                   </button>
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     diffusion

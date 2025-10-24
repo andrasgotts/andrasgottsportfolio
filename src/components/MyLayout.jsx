@@ -60,7 +60,7 @@ function MyLayout() {
           {/*Projects */}
           <div
             id="main3"
-            className="col-span-6 col-start-2 row-span-6 row-start-10 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+            className="col-span-6 col-start-2 row-span-6 row-start-10 bg-[#0d0f12] rounded-xl p-2 text-white"
           >
             <ProjectGroups />
           </div>
