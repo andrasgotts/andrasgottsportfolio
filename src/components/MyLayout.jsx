@@ -1,5 +1,7 @@
 import SplashCursor from "./SplashCursor";
 import ResumePDF from "../assets/AndrasGottsCV2.pdf";
+import Skills from "./Skills";
+import ProjectGroups from "./ProjectGroups";
 
 function MyLayout() {
   const DownloadButton = (props) => {
@@ -38,7 +40,9 @@ function MyLayout() {
                 <div className="col-span-2 col-start-4 row-span-2 row-start-4...  border-2 rounded-xl p-2 text-white">
                   <p>beepidy boop</p>
                   <a href={ResumePDF} download="ResumePDF" target="_blank">
-                    <button>My Example Doc</button>
+                    <button className="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
+                      Resume
+                    </button>
                   </a>
                   <DownloadButton />
                 </div>
@@ -50,297 +54,14 @@ function MyLayout() {
             id="main2"
             className="col-span-6 col-start-2 row-span-3 row-start-7 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
-            <h1 className="text-[#c91b68] text-4xl">Skills</h1>
-            <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
-              <div className="card bg-[#0d0f12] ">
-                <figure>
-                  <span className="text-white icon-[tabler--brand-git] size-25"></span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="size-25">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="40"
-                      height="40"
-                      className="size-25"
-                      style={{
-                        "--darkreader-inline-fill":
-                          "var(--darkreader-background-000000, #000000)",
-                      }}
-                      viewBox="-2.4 -2.4 28.8 28.8"
-                    >
-                      <path
-                        id="SVGRepo_bgCarrier"
-                        fill="#fff"
-                        strokeWidth="0"
-                        d="M9.166.33a2.25 2.25 0 0 0-2.332 0l-5.25 3.182A2.25 2.25 0 0 0 .5 5.436v5.128a2.25 2.25 0 0 0 1.084 1.924l5.25 3.182a2.25 2.25 0 0 0 2.332 0l5.25-3.182a2.25 2.25 0 0 0 1.084-1.924V5.436a2.25 2.25 0 0 0-1.084-1.924z"
-                        style={{
-                          "--darkreader-inline-fill":
-                            "var(--darkreader-background-ffffff, #181a1b)",
-                        }}
-                        transform="matrix(1.8 0 0 1.8 -2.4 -2.4)"
-                      ></path>
-                      <g id="SVGRepo_iconCarrier">
-                        <path d="M6.078 12A5.93 5.93 0 0 1 12 6.078a5.95 5.95 0 0 1 5.129 2.959l-1.499.867 5.027-2.902a1.6 1.6 0 0 0-.543-.575l-7.345-4.24c-.424-.245-1.116-.245-1.539 0l-7.345 4.24c-.422.244-.768.844-.768 1.333v8.48c0 .245.086.517.226.758l3.529-2.038A5.9 5.9 0 0 1 6.078 12"></path>
-                        <path d="M14.564 10.519A2.97 2.97 0 0 0 12 9.039a2.964 2.964 0 0 0-2.564 4.441L12 12z"></path>
-                        <path d="m20.657 7.002-5.046 2.913-1.046.605-.001-.001L12 12l-2.563 1.48A2.96 2.96 0 0 0 12 14.961a2.97 2.97 0 0 0 2.565-1.481l2.563 1.483a5.94 5.94 0 0 1-5.129 2.959 5.93 5.93 0 0 1-5.128-2.962l-3.529 2.038c.14.242.332.453.543.575l7.345 4.24c.423.245 1.115.245 1.539 0l7.345-4.24c.211-.122.403-.333.543-.575s.226-.513.226-.758V7.76c0-.245-.086-.517-.226-.758m-2.735 5.327h-.658v.658h-.657v-.658h-.658v-.658h.658v-.658h.657v.658h.658zm2.468 0h-.658v.658h-.658v-.658h-.657v-.658h.657v-.658h.658v.658h.658z"></path>
-                      </g>
-                    </svg>
-                  </span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="text-white icon-[tabler--brand-python] size-25"></span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="text-white icon-[tabler--sql] size-25"></span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="text-white icon-[tabler--brand-react] size-25"></span>
-                </figure>
-              </div>
-            </div>
-            <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="text-white icon-[tabler--brand-typescript] size-25"></span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="text-white icon-[tabler--brand-javascript] size-25"></span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span className="size-25">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="40"
-                      height="40"
-                      className="size-25"
-                      fill="#fff"
-                      style={{
-                        "--darkreader-inline-fill":
-                          "var(--darkreader-background-ffffff, #181a1b)",
-                      }}
-                      viewBox="0 0 32 32"
-                    >
-                      <g id="SVGRepo_iconCarrier">
-                        <path d="M20.465 5.877a.687.687 0 1 1 0 .002zm-4.459-4.873L7.192 9.818a12.35 12.35 0 0 0-3.654 8.786c0 6.843 5.547 12.39 12.39 12.39 3.434 0 6.541-1.397 8.785-3.653l.001-.001a12.2 12.2 0 0 0 3.748-8.814c0-3.408-1.393-6.49-3.641-8.709l-.001-.001-2.179 2.178a9.312 9.312 0 0 1-6.585 15.896 9.312 9.312 0 0 1-6.585-15.896l5.807-5.806.727-.831z"></path>
-                      </g>
-                    </svg>
-                  </span>
-                </figure>
-              </div>
-              <div className="card bg-[#0d0f12]">
-                <figure>
-                  <span>
-                    {" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="724"
-                      height="561"
-                      className="text-white size-25"
-                      preserveAspectRatio="xMidYMid"
-                      viewBox="0 0 724 561"
-                    >
-                      <defs>
-                        <linearGradient
-                          id="gradientFill-1"
-                          x1="0"
-                          x2="1"
-                          y1="0"
-                          y2="1"
-                          gradientUnits="objectBoundingBox"
-                          spreadMethod="pad"
-                        >
-                          <stop offset="0" stopColor="#CBCED0"></stop>
-                          <stop offset="1" stopColor="#84838B"></stop>
-                        </linearGradient>
-                        <linearGradient
-                          id="gradientFill-2"
-                          x1="0"
-                          x2="1"
-                          y1="0"
-                          y2="1"
-                          gradientUnits="objectBoundingBox"
-                          spreadMethod="pad"
-                        >
-                          <stop offset="0" stopColor="#276DC3"></stop>
-                          <stop offset="1" stopColor="#165CAA"></stop>
-                        </linearGradient>
-                      </defs>
-                      <path
-                        fill="url(#gradientFill-1)"
-                        fillRule="evenodd"
-                        d="M361.453 485.937C162.329 485.937.906 377.828.906 244.469.906 111.109 162.329 3 361.453 3S722 111.109 722 244.469c0 133.359-161.422 241.468-360.547 241.468m55.188-388.531c-151.352 0-274.047 73.908-274.047 165.078s122.695 165.078 274.047 165.078c151.351 0 263.046-50.529 263.046-165.078 0-114.513-111.695-165.078-263.046-165.078"
-                      ></path>
-                      <path
-                        fill="url(#gradientFill-2)"
-                        fillRule="evenodd"
-                        d="M550 377s21.822 6.585 34.5 13c4.399 2.226 12.01 6.668 17.5 12.5 5.378 5.712 8 11.5 8 11.5l86 145-139 .062L492 437s-13.31-22.869-21.5-29.5c-6.832-5.531-9.745-7.5-16.5-7.5h-33.026L421 558.974l-123 .052V152.938h247S657.5 154.967 657.5 262 550 377 550 377m-53.5-135.976-74.463-.048-.037 69.05 74.5-.024s34.5-.107 34.5-35.125c0-35.722-34.5-33.853-34.5-33.853"
-                      ></path>
-                    </svg>
-                  </span>
-                </figure>
-              </div>
-            </div>
+            <Skills />
           </div>
           {/*Projects */}
           <div
             id="main3"
             className="col-span-6 col-start-2 row-span-6 row-start-10 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
           >
-            <div className="grid grid-cols-4 grid-rows-3 gap-4 border-2 rounded-xl p-2">
-              <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
-                <div className="card bg-primary text-primary-content w-fit h-fit">
-                  <button
-                    onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                  >
-                    <div className="card-body">
-                      {/*"image"*/}
-
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        {/*"title"*/}
-                        Web Dev
-                      </h5>
-                      <p>
-                        {/*"short description"*/}
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                      <p>{/*"skills/things used"*/}</p>
-                      <div className="flex">
-                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                          react
-                        </button>
-                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                          javascript
-                        </button>
-                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                          tailwind
-                        </button>
-                        <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                          astro
-                        </button>
-                      </div>
-
-                      <p>{/*"source? githublink"*/}</p>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        AI programming
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-              <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        Languages
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-              <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        Data Analysis
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-              <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        Game Dev
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-              <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        Main project
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-              <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-                <button
-                  onClick={() => btnClick("/andrasgottsportfolio/projects")}
-                >
-                  <div className="card bg-primary text-primary-content">
-                    <div className="card-body">
-                      <h5 className="card-title text-primary-content mb-2.5">
-                        Testing
-                      </h5>
-                      <p>
-                        Enhance customer satisfaction by providing timely and
-                        effective support solutions.
-                      </p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-            </div>
+            <ProjectGroups />
           </div>
         </div>
       </div>
