@@ -1,7 +1,9 @@
 function Skills() {
   return (
     <>
-      <h1 className="text-[#c91b68] text-4xl">Skills</h1>
+      <h1 className="text-[#c91b68] text-4xl items-center align-middle text-center p-8">
+        Skills
+      </h1>
       <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
         <div className="card bg-[#0d0f12] ">
           <figure>
