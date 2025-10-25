@@ -1,5 +1,3 @@
-import SplashCursor from "./SplashCursor";
-
 function FooterThis() {
   const btnClick = (mylink) => {
     window.open(mylink);

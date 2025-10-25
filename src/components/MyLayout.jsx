@@ -1,4 +1,3 @@
-import SplashCursor from "./SplashCursor";
 import ResumePDF from "../assets/AndrasGottsCV2.pdf";
 import Skills from "./Skills";
 import ProjectGroups from "./ProjectGroups";

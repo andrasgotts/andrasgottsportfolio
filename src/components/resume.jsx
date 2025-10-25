@@ -77,9 +77,10 @@ function ResumeMainR() {
                 tools. <br />
                 <p className="text-wrap">
                   <h4>● Web Development : </h4>Designed and deployed responsive
-                  applications using HTML, CSS, JavaScript, Bootstrap, Razor
-                  Pages, React, Flask, and PixiJS. Delivered projects with a
-                  focus on performance optimization, accessibility, and
+                  applications using HTML, CSS, JavaScript, Bootstrap, and
+                  stacks involving (Tailwind, React and Astro), (Razor Pages,
+                  C#, .net, SSMS, plesk), Flask, and PixiJS. Delivered projects
+                  with a focus on performance optimization, accessibility, and
                   maintainability.
                 </p>
                 <p className="text-wrap">
@@ -202,11 +203,19 @@ function ResumeMainR() {
                 and applying the JavaScript 2D rendering engine PixiJS ,
                 demonstrating adaptability and rapid acquisition of new
                 technical skills. <br />● Integrated games seamlessly into the
-                br/oader website, requiring effective teamwork, clear
+                broader website, requiring effective teamwork, clear
                 communication, and synchronization of update cycles. <br />●
                 Developed problem-solving and project management skills by
                 adjusting timelines to accommodate challenges while maintaining
                 smooth performance and overall project quality.
+              </p>
+            </pre>
+            <br />
+            <br />
+            <h2 className="font-bold underline">Awards</h2>
+            <pre>
+              <p className="text-wrap">
+                ● Learn React Course – Code Academy – October 24, 2025
               </p>
             </pre>
             <br />

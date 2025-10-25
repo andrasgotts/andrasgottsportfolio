@@ -12,10 +12,15 @@ function ProjectGroups() {
                   {/*"title"*/}
                   Web Dev
                 </h5>
+                {/*"short description"*/}
                 <p>
-                  {/*"short description"*/}
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
+                </p>
+                <p>
+                  ● I made my portfolio website (this one) using React,
+                  Tailwind, and Astro.
                 </p>
                 <p>{/*"skills/things used"*/}</p>
                 <div className="flex flex-wrap">
@@ -67,11 +72,9 @@ function ProjectGroups() {
                   AI programming
                 </h5>
                 <p>
-                  <ul className="list-disc">
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Milk</li>
-                  </ul>
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -108,8 +111,9 @@ function ProjectGroups() {
                   Languages
                 </h5>
                 <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -134,8 +138,9 @@ function ProjectGroups() {
                   Data Analysis
                 </h5>
                 <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
                 </p>
               </div>
               <div className="flex flex-wrap">
@@ -160,18 +165,49 @@ function ProjectGroups() {
             <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
-                  Game Dev
+                  Main project
                 </h5>
                 <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    unity
+                    python
                   </button>
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    godot
+                    pandas
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    sql
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    ssms
+                  </button>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div className="col-span-2 row-span-1 border-2 rounded-xl p-2">
+          <div className="card bg-primary text-primary-content w-full h-full">
+            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
+              <div className="card-body">
+                <h5 className="card-title text-primary-content mb-2.5">
+                  Testing
+                </h5>
+                <p>
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
+                </p>
+                <div className="flex flex-wrap">
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    c++ test framework
+                  </button>
+                  <button className="btn btn-outline btn-primary rounded-full btn-sm">
+                    auditing
                   </button>
                 </div>
               </div>
@@ -183,33 +219,19 @@ function ProjectGroups() {
             <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
               <div className="card-body">
                 <h5 className="card-title text-primary-content mb-2.5">
-                  Main project
+                  Game Dev
                 </h5>
                 <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
-                </p>
-              </div>
-            </button>
-          </div>
-        </div>
-        <div className="col-span-1 row-span-1 border-2 rounded-xl p-2">
-          <div className="card bg-primary text-primary-content w-full h-full">
-            <button onClick={() => btnClick("/andrasgottsportfolio/projects")}>
-              <div className="card-body">
-                <h5 className="card-title text-primary-content mb-2.5">
-                  Testing
-                </h5>
-                <p>
-                  Enhance customer satisfaction by providing timely and
-                  effective support solutions.
+                  ● I made a restaurant website for a made up hungarian
+                  restaurant. This included getting menu items from a database
+                  and implementing CRUD for the menu.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    c++ test framework
+                    unity
                   </button>
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    auditing
+                    godot
                   </button>
                 </div>
               </div>
