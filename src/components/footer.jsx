@@ -12,7 +12,7 @@ function FooterThis() {
           <div className="flex items-center gap-2 text-xl font-bold text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="size-5"
+              className="size-8"
               viewBox="0 0 512 512"
             >
               <path
@@ -31,13 +31,13 @@ function FooterThis() {
               </a>{" "}
             </p>
           </aside>
-          <div className="flex h-5 gap-2">
+          <div className="flex h-5 gap-2 justify-center items-center">
             <button
               className="btn btn-circle btn-text [--btn-color:#2b3137]"
               aria-label="Github Outline Icon Button"
               onClick={() => btnClick("https://github.com/andrasgotts")}
             >
-              <span className="icon-[tabler--brand-github] size-5 shrink-0"></span>
+              <span className="icon-[tabler--brand-github] size-8 shrink-0"></span>
             </button>
             <button
               className="btn btn-circle btn-text [--btn-color:#0a66c2]"
@@ -46,14 +46,14 @@ function FooterThis() {
                 btnClick("https://www.linkedin.com/in/andrasgotts")
               }
             >
-              <span className="icon-[tabler--brand-linkedin] size-5 shrink-0"></span>
+              <span className="icon-[tabler--brand-linkedin] size-8 shrink-0"></span>
             </button>
             <button
               className="btn btn-circle btn-text [--btn-color:#2b3137]"
               aria-label="mail"
               onClick={themailto}
             >
-              <span className="icon-[tabler--mail] size-5 shrink-0"></span>
+              <span className="icon-[tabler--mail] size-8 shrink-0"></span>
             </button>
           </div>
         </div>
