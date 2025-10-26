@@ -21,8 +21,8 @@ function ProjectsR() {
               role="tab"
               aria-selected="true"
             >
-              <span className="icon-[tabler--home] size-5 shrink-0 me-2"></span>
-              Home
+              <span className="icon-[tabler--robot] size-5 shrink-0 me-2"></span>
+              AI dev
             </button>
             <button
               type="button"
@@ -33,8 +33,8 @@ function ProjectsR() {
               role="tab"
               aria-selected="false"
             >
-              <span className="icon-[tabler--user] size-5 shrink-0 me-2"></span>
-              Profile
+              <span className="icon-[tabler--world-www] size-5 shrink-0 me-2"></span>
+              Web Dev
             </button>
             <button
               type="button"
@@ -45,8 +45,44 @@ function ProjectsR() {
               role="tab"
               aria-selected="false"
             >
-              <span className="icon-[tabler--message] size-5 shrink-0 me-2"></span>
-              Messages
+              <span className="icon-[tabler--database] size-5 shrink-0 me-2"></span>
+              Data Analysis
+            </button>
+            <button
+              type="button"
+              className="tab active-tab:tab-active"
+              id="tabs-icons-item-4"
+              data-tab="#tabs-icons-4"
+              aria-controls="tabs-icons-4"
+              role="tab"
+              aria-selected="false"
+            >
+              <span className="icon-[tabler--source-code] size-5 shrink-0 me-2"></span>
+              Languages
+            </button>
+            <button
+              type="button"
+              className="tab active-tab:tab-active"
+              id="tabs-icons-item-5"
+              data-tab="#tabs-icons-5"
+              aria-controls="tabs-icons-5"
+              role="tab"
+              aria-selected="false"
+            >
+              <span className="icon-[tabler--test-pipe-2] size-5 shrink-0 me-2"></span>
+              Testing
+            </button>
+            <button
+              type="button"
+              className="tab active-tab:tab-active"
+              id="tabs-icons-item-6"
+              data-tab="#tabs-icons-6"
+              aria-controls="tabs-icons-6"
+              role="tab"
+              aria-selected="false"
+            >
+              <span className="icon-[tabler--device-gamepad-2] size-5 shrink-0 me-2"></span>
+              Game Dev
             </button>
           </nav>
 
@@ -145,174 +181,6 @@ function ProjectsR() {
                 View your recent messages, chat with friends, and manage your
                 conversations.
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
-          {/*about me */}
-          <div
-            id="main1"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div className="grid grid-flow-col grid-rows-3 gap-4">
-              <div className="row-span-3 ...  border-2 rounded-xl p-2">
-                images?
-              </div>
-              <div className="col-span-2 ...  border-2 rounded-xl p-2">
-                <h1>Hi, I'm Andras Gotts</h1>
-                <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                  Languages
-                </h2>
-              </div>
-              <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                <p>beepidy boop</p>
-              </div>
-              <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                <p>
-                  Education: Bsc Software Engineering from the University of
-                  Chester
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* main2 */}
-          <div
-            id="main2"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div>
-              <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-3 ... border-2 rounded-xl p-2">
-                  images?
-                </div>
-                <div className="col-span-2 ... border-2 rounded-xl p-2">
-                  <h1>Hi, I'm Andras Gotts</h1>
-                  <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    Web Development
-                  </h2>
-                </div>
-                <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                  <p>beepidy boop</p>
-                </div>
-                <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                  <p>
-                    Education: Bsc Software Engineering from the University of
-                    Chester
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* main3 */}
-          <div
-            id="main3"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div>
-              <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-3 ... border-2 rounded-xl p-2">
-                  images?
-                </div>
-                <div className="col-span-2 ... border-2 rounded-xl p-2">
-                  <h1>Hi, I'm Andras Gotts</h1>
-                  <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    Testing
-                  </h2>
-                </div>
-                <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                  <p>beepidy boop</p>
-                </div>
-                <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                  <p>
-                    Education: Bsc Software Engineering from the University of
-                    Chester
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* main4 */}
-          <div
-            id="main4"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div>
-              <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-3 ... border-2 rounded-xl p-2">
-                  images?
-                </div>
-                <div className="col-span-2 ... border-2 rounded-xl p-2">
-                  <h1>Hi, I'm Andras Gotts</h1>
-                  <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    Data analysis
-                  </h2>
-                </div>
-                <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                  <p>beepidy boop</p>
-                </div>
-                <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                  <p>
-                    Education: Bsc Software Engineering from the University of
-                    Chester
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* main5 */}
-          <div
-            id="main5"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div>
-              <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-3 ... border-2 rounded-xl p-2">
-                  images?
-                </div>
-                <div className="col-span-2 ... border-2 rounded-xl p-2">
-                  <h1>Hi, I'm Andras Gotts</h1>
-                  <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    Game Dev
-                  </h2>
-                </div>
-                <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                  <p>beepidy boop</p>
-                </div>
-                <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                  <p>
-                    Education: Bsc Software Engineering from the University of
-                    Chester
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* main6 */}
-          <div
-            id="main6"
-            className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-          >
-            <div>
-              <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-3 ... border-2 rounded-xl p-2">
-                  images?
-                </div>
-                <div className="col-span-2 ... border-2 rounded-xl p-2">
-                  <h1>Hi, I'm Andras Gotts</h1>
-                  <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    AI programming
-                  </h2>
-                </div>
-                <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                  <p>beepidy boop</p>
-                </div>
-                <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                  <p>
-                    Education: Bsc Software Engineering from the University of
-                    Chester
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
