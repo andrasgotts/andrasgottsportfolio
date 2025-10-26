@@ -1,3 +1,16 @@
+import {
+  MainProj,
+  GenPathProj,
+  DataWarehouseProj,
+  RProj,
+  RestaurantWebProj,
+  GroupBreakOutProj,
+  PortfolioProj,
+  SDL2GameProj,
+  CppBlackjackProj,
+  BankTestingProj,
+} from "./dataprojs";
+
 function ProjectsR() {
   return (
     <>
@@ -100,59 +113,8 @@ function ProjectsR() {
                 Explore the latest updates and news here.
               </p>
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
-                <div
-                  id="main1"
-                  className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-                >
-                  <div className="grid grid-flow-col grid-rows-3 gap-4">
-                    <div className="row-span-3 ...  border-2 rounded-xl p-2">
-                      images?
-                    </div>
-                    <div className="col-span-2 ...  border-2 rounded-xl p-2">
-                      <h1>Hi, I'm Andras Gotts</h1>
-                      <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
-                      </h2>
-                    </div>
-                    <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                      <p>beepidy boop</p>
-                    </div>
-                    <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                      <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* main2 */}
-                <div
-                  id="main2"
-                  className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
-                >
-                  <div>
-                    <div className="grid grid-flow-col grid-rows-3 gap-4">
-                      <div className="row-span-3 ... border-2 rounded-xl p-2">
-                        images?
-                      </div>
-                      <div className="col-span-2 ... border-2 rounded-xl p-2">
-                        <h1>Hi, I'm Andras Gotts</h1>
-                        <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                          Web Development
-                        </h2>
-                      </div>
-                      <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
-                        <p>beepidy boop</p>
-                      </div>
-                      <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
-                        <p>
-                          Education: Bsc Software Engineering from the
-                          University of Chester
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <MainProj />
+                <GenPathProj />
               </div>
             </div>
             <div
@@ -167,7 +129,7 @@ function ProjectsR() {
                 tab, where you can update your personal information and manage
                 your account details.
               </p>
-              <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
+              <div className="grid grid-cols-8 grid-rows-8 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <div
                   id="main1"
                   className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
@@ -179,16 +141,18 @@ function ProjectsR() {
                     <div className="col-span-2 ...  border-2 rounded-xl p-2">
                       <h1>Hi, I'm Andras Gotts</h1>
                       <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
+                        Restaurant website
                       </h2>
                     </div>
                     <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                       <p>beepidy boop</p>
                     </div>
                     <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                      <h5>creating a restaurant website with Razor Pages</h5>
+                      <p>Skills: Razor Pages, .NET, Plesk, SQL, SSMS, C#</p>
                       <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
+                        I created a restaurant website with razor pages, and a
+                        connected database and deployed it to plesk
                       </p>
                     </div>
                   </div>
@@ -206,7 +170,68 @@ function ProjectsR() {
                       <div className="col-span-2 ... border-2 rounded-xl p-2">
                         <h1>Hi, I'm Andras Gotts</h1>
                         <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                          Web Development
+                          This portfolio site
+                        </h2>
+                      </div>
+                      <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
+                        <p>beepidy boop</p>
+                      </div>
+                      <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                        <p>
+                          Education: Bsc Software Engineering from the
+                          University of Chester
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* main3 */}
+                <div
+                  id="main3"
+                  className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+                >
+                  <div>
+                    <div className="grid grid-flow-col grid-rows-3 gap-4">
+                      <div className="row-span-3 ... border-2 rounded-xl p-2">
+                        images?
+                      </div>
+                      <div className="col-span-2 ... border-2 rounded-xl p-2">
+                        <h1>Hi, I'm Andras Gotts</h1>
+                        <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                          Group breakout game project
+                        </h2>
+                      </div>
+                      <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
+                        <p>beepidy boop</p>
+                      </div>
+                      <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                        <h5>Group breakout game in-house work experience</h5>
+                        <p>
+                          Skills: JavaScript, PixiJS, RazorPages, Game Design
+                        </p>
+                        <p>
+                          I worked as a programmer as part of a team to develop
+                          a breakout puzzle game focused on secondary school
+                          level computer science for a client
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* main4 */}
+                <div
+                  id="main4"
+                  className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+                >
+                  <div>
+                    <div className="grid grid-flow-col grid-rows-3 gap-4">
+                      <div className="row-span-3 ... border-2 rounded-xl p-2">
+                        images?
+                      </div>
+                      <div className="col-span-2 ... border-2 rounded-xl p-2">
+                        <h1>Hi, I'm Andras Gotts</h1>
+                        <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+                          First portfolio site
                         </h2>
                       </div>
                       <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
@@ -234,7 +259,7 @@ function ProjectsR() {
                   Messages:
                 </span>{" "}
                 View your recent messages, chat with friends, and manage your
-                conversations.
+                conversations. DATA ANALYSIS
               </p>
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <div
@@ -248,16 +273,25 @@ function ProjectsR() {
                     <div className="col-span-2 ...  border-2 rounded-xl p-2">
                       <h1>Hi, I'm Andras Gotts</h1>
                       <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
+                        Data Warehouse
                       </h2>
                     </div>
                     <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                       <p>beepidy boop</p>
                     </div>
                     <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                      <h6>
+                        Creating a data warehouse from a set of sales data sets
+                      </h6>
                       <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
+                        Skills: SQL, Python, PANDAS, working with JSON and CSV
+                        files
+                      </p>
+                      <p>
+                        I created a data warehouse from 3 separate datasets with
+                        many categories, i exported the data to an ODS in Pandas
+                        and processed the data and then exported the data to my
+                        self designed data warehouse
                       </p>
                     </div>
                   </div>
@@ -275,16 +309,23 @@ function ProjectsR() {
                       <div className="col-span-2 ... border-2 rounded-xl p-2">
                         <h1>Hi, I'm Andras Gotts</h1>
                         <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                          Web Development
+                          Data analysis using R
                         </h2>
                       </div>
                       <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                         <p>beepidy boop</p>
                       </div>
                       <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                        <h5>
+                          I analysed a dataset with the help of R and made a
+                          report with graphs from R
+                        </h5>
+                        <p>Skills: R, Data Analysis</p>
                         <p>
-                          Education: Bsc Software Engineering from the
-                          University of Chester
+                          I analysed a csv dataset from a questionnaire on AI
+                          usage and ethics. I created tables with comparing key
+                          categories. I created appropriate graphs for analysis
+                          also.
                         </p>
                       </div>
                     </div>
@@ -303,7 +344,7 @@ function ProjectsR() {
                   Messages:
                 </span>{" "}
                 View your recent messages, chat with friends, and manage your
-                conversations.
+                conversations. LANGUAGES
               </p>
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <div
@@ -317,16 +358,18 @@ function ProjectsR() {
                     <div className="col-span-2 ...  border-2 rounded-xl p-2">
                       <h1>Hi, I'm Andras Gotts</h1>
                       <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
+                        C++ Blackjack
                       </h2>
                     </div>
                     <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                       <p>beepidy boop</p>
                     </div>
                     <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                      <h5>Creating a console game of blackjack in C++</h5>
+                      <p>Skills: C++</p>
                       <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
+                        Implementing blackjack into c++ and playing through the
+                        game in the console.
                       </p>
                     </div>
                   </div>
@@ -372,7 +415,7 @@ function ProjectsR() {
                   Messages:
                 </span>{" "}
                 View your recent messages, chat with friends, and manage your
-                conversations.
+                conversations. TESTING
               </p>
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <div
@@ -386,16 +429,19 @@ function ProjectsR() {
                     <div className="col-span-2 ...  border-2 rounded-xl p-2">
                       <h1>Hi, I'm Andras Gotts</h1>
                       <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
+                        Basic Bank Testing project
                       </h2>
                     </div>
                     <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                       <p>beepidy boop</p>
                     </div>
                     <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                      <h5>Bank testing in C++</h5>
+                      <p>Skills: C++, Creating Tests</p>
                       <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
+                        I created tests for as part of group to test a basic
+                        bank program in C++. We used a range of tests and made
+                        suggestions for improvements.
                       </p>
                     </div>
                   </div>
@@ -430,7 +476,6 @@ function ProjectsR() {
                 </div>
               </div>
             </div>
-
             <div
               id="tabs-icons-6"
               className="hidden"
@@ -442,7 +487,7 @@ function ProjectsR() {
                   Messages:
                 </span>{" "}
                 View your recent messages, chat with friends, and manage your
-                conversations.
+                conversations. GAME DEV
               </p>
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <div
@@ -456,16 +501,20 @@ function ProjectsR() {
                     <div className="col-span-2 ...  border-2 rounded-xl p-2">
                       <h1>Hi, I'm Andras Gotts</h1>
                       <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                        Languages
+                        SDL2 game
                       </h2>
                     </div>
                     <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                       <p>beepidy boop</p>
                     </div>
                     <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                      <h5>Creating a game in C++ with SDL2</h5>
+                      <p>Skills: C++, SDL2</p>
                       <p>
-                        Education: Bsc Software Engineering from the University
-                        of Chester
+                        I created a basic SDL2 game where the enemies go towards
+                        the player in the middle like a basic vampire survivors.
+                        This was limited to only the SDL2 library and my own
+                        assets
                       </p>
                     </div>
                   </div>
@@ -483,16 +532,21 @@ function ProjectsR() {
                       <div className="col-span-2 ... border-2 rounded-xl p-2">
                         <h1>Hi, I'm Andras Gotts</h1>
                         <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                          Web Development
+                          Group breakout game project
                         </h2>
                       </div>
                       <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
                         <p>beepidy boop</p>
                       </div>
                       <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+                        <h5>Group breakout game in-house work experience</h5>
                         <p>
-                          Education: Bsc Software Engineering from the
-                          University of Chester
+                          Skills: JavaScript, PixiJS, RazorPages, Game Design
+                        </p>
+                        <p>
+                          I worked as a programmer as part of a team to develop
+                          a breakout puzzle game focused on secondary school
+                          level computer science for a client
                         </p>
                       </div>
                     </div>

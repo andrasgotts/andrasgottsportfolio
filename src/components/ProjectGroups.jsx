@@ -1,6 +1,9 @@
 function ProjectGroups() {
   return (
     <>
+      <h1 className="text-[#c91b68] text-4xl items-center align-middle text-center p-8">
+        Projects
+      </h1>
       <div className="grid grid-cols-4 grid-rows-3 gap-4 rounded-xl p-2">
         <div className="col-span-1 row-span-3 border-2 rounded-xl p-2">
           <div className="card bg-primary text-primary-content w-full h-full">

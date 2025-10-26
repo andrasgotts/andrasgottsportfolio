@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Andras Gotts Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+<style>
+
+</style>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" style="background-color: #313178; color : white;display: block;margin: 8px;">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a1">Project setup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a2">Implementation</a>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex">
+              <div class="btn-group">
+                <a class="btn btn-secondary nav-link" href="#a4">Portfolio</a>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split nav-link" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                  <li><a class="dropdown-item" href="imagegenproj.html">ImageGenProject</a></li>
+                  <li><a class="dropdown-item" href="datawarehouseproj.html">DataWarehouseProject</a></li>
+                  <li><a class="dropdown-item" href="groupPuzzlegame.html">Group Breakout Game</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="sdl2proj.html">Sdl2GameProject</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a5">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div style="height: 50px;"></div>
+
+    <div id="a1" class="container-fluid mt-3" style="scroll-margin-top: 60px; padding-left: 75px; padding-right: 75px; text-align:center;">
+      <h3>Project setup</h3>
+      <p>
+        We had to use GitLab for this project and we were put into random groups of 6. We were given 6 weeks to complete the project.
+       We met our client, whose job was to travel to schools and talk about Chester University. He wanted a breakout puzzle game
+       with a focus on computer science. Our client let us choose a theme that would be fun, we chose a pirate theme.
+      </p>
+    </div>
+
+    <div style="height: 50px;"></div>
+
+    <div id="a2" class="container-fluid mt-3" style="scroll-margin-top: 60px; padding-left: 75px; padding-right: 75px; text-align:center;">
+      <h3>Implementation</h3>
+      <p>
+        We decided to use Razor Pages and .NET as we were more familiar with this rather than nodejs. We decided to use PixiJS after doing some research
+       into 2D JS game engines. None of them has any experience whatsoever with web game making. I was given the role of a games programmer. I had to design
+       educational games for a number of breakout levels. An example of this would be answer computer science questions and they had to complete a number of correct answers
+       to move a ship towards some treasure whilst an enemy ship moved constantly towards the ship. Wrong answers took the players ship a bit backwards.
+       This involved sprites which I got from the internet, but I told our asset designer to create assets for the game so it ended up looking much better.
+       I also designed a basic binary game where the user had to translate the binary into letters that made up a word which would be a clue to the overall puzzle.
+       Our meetings with the client went well, he seemed to agree with our direction and didn't ask for any major changes. We had an issue with one of our team not
+       doing any work, but another teammate picked up their slack and we didn't set him much work so it wouldn't set us back as much.
+       An issue with PixiJS was that the main update function would update too fast and cause lag so we needed to set a lower FPS.
+      </p>
+    </div>
+
+    <div style="height: 150px;"></div>
+
+      
+    </div>
+    <div style="height: 100px;"></div>
+    <div id="a5" class="container-fluid mt-3" style="text-align: center; border-top: 1px solid #e66d4c;padding-top:80px">
+      <h3>Contact</h3>
+      <p>email: <a style="color:burlywood;text-decoration: underline;" href="mailto:andras.gotts@outlook.com">andras.gotts@outlook.com</a></p>
+      <p>linkedin: <a style="color:burlywood;text-decoration: underline;" href="https://www.linkedin.com/in/andrasgotts/">linkedin/andrasgotts</a></p>
+      <p><a style="color:burlywood;text-decoration: underline;" href="#">top</a></p>
+    </div>
+
+  </body>
+
+<script>
+  //https://github.com/qrohlf/trianglify;
+</script>
+
+</html>
