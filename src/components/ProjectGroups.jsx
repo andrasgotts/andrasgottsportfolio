@@ -75,9 +75,16 @@ function ProjectGroups() {
                   AI programming
                 </h5>
                 <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
+                  ● My main university project involved me using Van Gogh
+                  artworks to create new ones. I implemented GAN, DCGAN,
+                  CYCLE-GAN, and DDPM (diffusion) methods. I used PyTorch, and a
+                  number of other libraries. For my UI I first used a local
+                  website using Flask for the back-end, and I ended up creating
+                  a UI with QT6 to replace the local website.
+                </p>
+                <p>
+                  ● Implemented a genetic algorithm for to find the fastest path
+                  and compare the results to A* and Dijkstra's algorithm
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -114,9 +121,20 @@ function ProjectGroups() {
                   Languages
                 </h5>
                 <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
+                  ● C++ is my main language that I have used for many years,
+                  this is the language I am most confident with. I have done a
+                  number of projects in this language, including my SDL2 game,
+                  blackjack game, and genetic algorithm path finding program,
+                  etc...
+                </p>
+                <p>
+                  ● Python is my second most proficient language. I used this
+                  for my main project, making a data warehouse, etc...
+                </p>
+                <p>
+                  ● C#, this is the Language I am currently learning. I have
+                  worked with C# before in unity, and on my restaurant website
+                  project.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -141,9 +159,17 @@ function ProjectGroups() {
                   Data Analysis
                 </h5>
                 <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
+                  ● Designed a data warehouse then migrated data from an
+                  existing relational data structure with JSON, CSV, and SQL
+                  files for data. This was done using Python and PANDAS.
+                </p>
+                <p>
+                  ● Analysed a questionnaire for students opinions on AI using
+                  R.
+                </p>
+                <p>
+                  ● Implemented k-means clustering from scratch to use with a
+                  dataset of countries with their GDP and development indicators
                 </p>
               </div>
               <div className="flex flex-wrap">
@@ -171,9 +197,12 @@ function ProjectGroups() {
                   Main project
                 </h5>
                 <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
+                  ● My main university project involved me using Van Gogh
+                  artworks to create new ones. I implemented GAN, DCGAN,
+                  CYCLE-GAN, and DDPM (diffusion) methods. I used PyTorch, and a
+                  number of other libraries. For my UI I first used a local
+                  website using Flask for the back-end, and I ended up creating
+                  a UI with QT6 to replace the local website.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -201,10 +230,10 @@ function ProjectGroups() {
                   Testing
                 </h5>
                 <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
+                  ● Tested a basic banking application using microsoft's c++
+                  testing library
                 </p>
+                <p>● Audited a website</p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     c++ test framework
@@ -224,11 +253,7 @@ function ProjectGroups() {
                 <h5 className="card-title text-primary-content mb-2.5">
                   Game Dev
                 </h5>
-                <p>
-                  ● I made a restaurant website for a made up hungarian
-                  restaurant. This included getting menu items from a database
-                  and implementing CRUD for the menu.
-                </p>
+                <p>● stuffs</p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     unity

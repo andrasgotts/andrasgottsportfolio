@@ -5,11 +5,14 @@ function Skills() {
         Skills
       </h1>
       <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
+        {/**Git */}
         <div className="card bg-[#0d0f12] ">
           <figure>
             <span className="text-white icon-[tabler--brand-git] size-25"></span>
           </figure>
+          <h2 className="text-center">Git</h2>
         </div>
+        {/**C++ */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="size-25">
@@ -43,34 +46,46 @@ function Skills() {
               </svg>
             </span>
           </figure>
+          <h2 className="text-center">C++</h2>
         </div>
+        {/**Python */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="text-white icon-[tabler--brand-python] size-25"></span>
           </figure>
+          <h2 className="text-center">Python</h2>
         </div>
+        {/**SQL */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="text-white icon-[tabler--sql] size-25"></span>
           </figure>
+          <h2 className="text-center">SQL</h2>
         </div>
+        {/**React */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="text-white icon-[tabler--brand-react] size-25"></span>
           </figure>
+          <h2 className="text-center">React</h2>
         </div>
       </div>
       <div className="card-group sm:flex *:not-last:border-e *:not-last:border-base-content/25 max-w-sm sm:max-w-full animate-pulse">
+        {/**TypeScript */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="text-white icon-[tabler--brand-typescript] size-25"></span>
           </figure>
+          <h2 className="text-center">TypeScript</h2>
         </div>
+        {/**JavaScript */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="text-white icon-[tabler--brand-javascript] size-25"></span>
           </figure>
+          <h2 className="text-center">JavaScript</h2>
         </div>
+        {/**PyTorch */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span className="size-25">
@@ -92,7 +107,9 @@ function Skills() {
               </svg>
             </span>
           </figure>
+          <h2 className="text-center">PyTorch</h2>
         </div>
+        {/**R */}
         <div className="card bg-[#0d0f12]">
           <figure>
             <span>
@@ -144,6 +161,7 @@ function Skills() {
               </svg>
             </span>
           </figure>
+          <h2 className="text-center">R</h2>
         </div>
       </div>
     </>

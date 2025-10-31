@@ -15,9 +15,6 @@ function ProjectsR() {
   return (
     <>
       <div className="relative">
-        {/* background??? */}
-        <div className="w-full h-full absolute z-2 pointer-events-none"></div>
-        {/**sssssssssssssssssssssssssssssssssssssssssssssssssssssssss */}
         <div className="bg-[#0d0f12] z-10 font-poppins">
           <nav
             className="tabs tabs-bordered overflow-x-auto justify-center"

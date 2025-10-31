@@ -1,3 +1,6 @@
+import React from "react";
+import { Img } from "react-image";
+
 export function MainProj() {
   return (
     <>
@@ -5,7 +8,7 @@ export function MainProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/london.png" />
+            <Img src="/andrasgottsportfolio/projimgs/london.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
@@ -42,7 +45,7 @@ export function GenPathProj() {
           <div className="grid grid-flow-col grid-rows-3 gap-4">
             <div className="row-span-3 ... border-2 rounded-xl p-2">
               images?
-              <img src="/andrasgottsportfolio/projimgs/genetic-algorithm.avif" />
+              <Img src="/andrasgottsportfolio/projimgs/genetic-algorithm.avif" />
             </div>
             <div className="col-span-2 ... border-2 rounded-xl p-2">
               <h1>Hi, I'm Andras Gotts</h1>
@@ -78,7 +81,7 @@ export function DataWarehouseProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/dwim.png" />
+            <Img src="/andrasgottsportfolio/projimgs/dwim.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
@@ -113,7 +116,7 @@ export function RProj() {
           <div className="grid grid-flow-col grid-rows-3 gap-4">
             <div className="row-span-3 ... border-2 rounded-xl p-2">
               images?
-              <img src="/andrasgottsportfolio/projimgs/imgR.webp" />
+              <Img src="/andrasgottsportfolio/projimgs/imgR.webp" />
             </div>
             <div className="col-span-2 ... border-2 rounded-xl p-2">
               <h1>Hi, I'm Andras Gotts</h1>
@@ -150,7 +153,7 @@ export function RestaurantWebProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/rest.png" />
+            <Img src="/andrasgottsportfolio/projimgs/rest.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
@@ -183,7 +186,7 @@ export function GroupBreakOutProj() {
           <div className="grid grid-flow-col grid-rows-3 gap-4">
             <div className="row-span-3 ... border-2 rounded-xl p-2">
               images?
-              <img src="/andrasgottsportfolio/projimgs/webdev.png" />
+              <Img src="/andrasgottsportfolio/projimgs/webdev.webp" />
             </div>
             <div className="col-span-2 ... border-2 rounded-xl p-2">
               <h1>Hi, I'm Andras Gotts</h1>
@@ -218,7 +221,7 @@ export function PortfolioProj() {
           <div className="grid grid-flow-col grid-rows-3 gap-4">
             <div className="row-span-3 ... border-2 rounded-xl p-2">
               images?
-              <img src="/andrasgottsportfolio/projimgs/webdev.png" />
+              <Img src="/andrasgottsportfolio/projimgs/webdev.webp" />
             </div>
             <div className="col-span-2 ... border-2 rounded-xl p-2">
               <h1>Hi, I'm Andras Gotts</h1>
@@ -252,7 +255,7 @@ export function SDL2GameProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/sdl2pic.png" />
+            <Img src="/andrasgottsportfolio/projimgs/sdl2pic.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
@@ -288,7 +291,7 @@ export function CppBlackjackProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/blackjack.webp" />
+            <Img src="/andrasgottsportfolio/projimgs/blackjack.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
@@ -323,7 +326,7 @@ export function BankTestingProj() {
         <div className="grid grid-flow-col grid-rows-3 gap-4">
           <div className="row-span-3 ...  border-2 rounded-xl p-2">
             images?
-            <img src="/andrasgottsportfolio/projimgs/testing.png" />
+            <Img src="/andrasgottsportfolio/projimgs/testing.webp" />
           </div>
           <div className="col-span-2 ...  border-2 rounded-xl p-2">
             <h1>Hi, I'm Andras Gotts</h1>
