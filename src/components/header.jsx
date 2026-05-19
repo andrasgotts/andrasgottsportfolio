@@ -9,7 +9,7 @@ function HeaderThis() {
           <div className="navbar-start items-center justify-between max-md:w-full">
             <a
               className="link text-[#849CE8] link-neutral text-xl font-bold no-underline text-nowrap"
-              href="/andrasgottsportfolio"
+              href="/cyan-corot"
             >
               Andras Gotts
             </a>
@@ -17,23 +17,23 @@ function HeaderThis() {
           <div className="navbar-center">
             <ul className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2 ">
               <li>
-                <a href="/andrasgottsportfolio" className="text-white">
+                <a href="/cyan-corot" className="text-white">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/andrasgottsportfolio/projects" className="text-white">
+                <a href="/cyan-corot/projects" className="text-white">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="/andrasgottsportfolio/resume" className="text-white">
+                <a href="/cyan-corot/resume" className="text-white">
                   Resume
                 </a>
               </li>
               <li>
                 <a
-                  href="/andrasgottsportfolio/education"
+                  href="/cyan-corot/education"
                   className="text-white"
                 >
                   Education
@@ -41,7 +41,7 @@ function HeaderThis() {
               </li>
 
               <li>
-                <a href="/andrasgottsportfolio" className="text-white">
+                <a href="/cyan-corot/contact" className="text-white">
                   Contact
                 </a>
               </li>
