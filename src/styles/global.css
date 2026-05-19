@@ -2,16 +2,10 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-@plugin "flyonui";
 @plugin "@iconify/tailwind4";
 
-@import "flyonui/variants.css"; /* Require only if you want to use FlyonUI JS component */
-@source "flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
-@source "flyonui/dist/tabs.js";
-@font-face {
-  font-family: SF;
-  src: url("../assets/fonts/SuperFrosting-R9z4o.ttf");
-}
+@import "tailwindcss";
+@plugin "flyonui";
 
 @font-face {
   font-family: poppins;

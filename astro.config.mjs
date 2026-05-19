@@ -11,6 +11,6 @@ export default defineConfig({
   },
 
   site: 'https://astronaut.github.io',
-  base: '/my-repo',
+  base: '/andrasgottsportfolio',
   integrations: [react()],
 });

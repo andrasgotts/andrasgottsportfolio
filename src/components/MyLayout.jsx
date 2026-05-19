@@ -1,4 +1,4 @@
-import ResumePDF from "../assets/AndrasGottsCV2.pdf";
+import ResumePDF from "../assets/AndrasGottsCV.pdf";
 import Skills from "./Skills";
 import ProjectGroups from "./ProjectGroups";
 
