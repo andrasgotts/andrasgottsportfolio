@@ -11,6 +11,7 @@ export default defineConfig({
   },
 
   site: 'https://astronaut.github.io',
-  base: '/andrasgottsportfolio',
+  //base: '/andrasgottsportfolio',cyan-corot
+  base: '/cyan-corot',
   integrations: [react()],
 });
