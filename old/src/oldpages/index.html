@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Andras Gotts Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+<style>
+  #boxess {
+    border: 2px solid #04AA6D;
+    background-color: #4e4e94;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  #gridresume {
+    border: 2px solid #04AA6D;
+    background-color: #4e4e94;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;/*200px->300px*/
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  } 
+</style>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" style="background-color: #313178; color : white;display: block;margin: 8px;">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#a1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a2">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a3">Resume</a>
+          </li>
+          <li class="nav-item">
+            <!---<a class="nav-link" href="#a4">Portfolio</a>--->
+            <div class="d-flex">
+              <div class="btn-group">
+                <a class="btn btn-secondary nav-link" href="#a4">Portfolio</a>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split nav-link" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                  <li><a class="dropdown-item" href="./pages/imagegenproj.html">ImageGenProject</a></li>
+                  <li><a class="dropdown-item" href="./pages/datawarehouseproj.html">DataWarehouseProject</a></li>
+                  <li><a class="dropdown-item" href="./pages/groupPuzzlegame.html">Group Breakout Game</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./pages/sdl2proj.html">Sdl2GameProject</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!--<li class="nav-item"> <a class="nav-link" href="#a5">documents - Graduate certificate</a> </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#a5">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div style="height: 50px;"></div>
+
+    <div id="a1" class="container-fluid mt-3" style="scroll-margin-top: 60px; padding-left: 75px; padding-right: 75px; text-align:center;">
+      <h3>Home</h3>
+      <h2>I am currently working on a new portfolio website that uses: React, Tailwind, and Astro</h2>
+      <p>
+        Welcome to my portfolio website!
+      </p>
+      <p>
+        This website includes my resume and showcases a number of my projects!
+      </p>
+    </div>
+
+    <div style="height: 50px;"></div>
+
+    <div id="a2" class="container-fluid mt-3" style="scroll-margin-top: 60px; padding-left: 75px; padding-right: 75px; text-align:center;">
+      <h3>About me</h3>
+      <p>
+        My name is Andras Gotts
+      </p>
+      <p>
+        I am interested in programming and i would like to learn some more skills and deepen my understanding of a range of coding specialties
+        
+      </p>
+    </div>
+
+    <div style="height: 150px;"></div>
+
+    <div id="a3" class="container-fluid mt-3" style="scroll-margin-top: 60px;">
+      <div class="container">
+        <h3 style="padding-left: 30px;">Resume</h3>
+      <div class="row row-cols-2" id="gridresume">
+        <div class="col" id="gridresume">
+          <h3>Profile</h3>
+          <p>Recent Software Engineering graduate with a good foundation in software design, development and testing. Skilled in communication, teamwork, and problem-solving. Experience in delivering projects from concept to implementation through university coursework and group collaborations. Adaptable, innovative, and committed to continuous learning, with the ability to apply critical thinking and creativity to real-world software challenges.
+</p>
+        </div>
+        <div class="col" id="gridresume">
+          <h3>Education</h3>
+          <b>University of Chester, BSc (Hons) in Software Engineering, 2022- 2025</b>
+<p>Relevant Coursework: Generating art using diffusion and GANs based on artwork found in a museum
+</p>
+<p>
+Huntington Secondary School	2013-2020	  
+A-levels (covid year of cancelled exams): Maths: C, computer science: C, geography: A
+GCSE: Maths:7, Computer Science: 6, English: 5, German: 6</p>
+        </div>
+        <div class="col" id="gridresume">
+          <h3>Technical Skills</h3>
+    <h5>• Programming & Software Development:</h5> <p> in Python and C++, with practical experience applying SOLID and OOP principles. Built AI models (GAN, DCGAN, CycleGAN, DDPM) using PyTorch, showcasing rapid self-learning and adaptability. Developed custom interfaces in QT6 to deliver user-friendly AI tools.</p>
+    <h5>• Web Development:</h5> <p></p>Designed and deployed responsive applications using HTML, CSS, Bootstrap, Razor Pages, Flask, and PixiJS. Delivered projects with a focus on performance optimization, accessibility, and maintainability.</p>
+    <h5>• Data & Database Management:</h5> <p>Skilled in SQL, R, and Pandas for data querying, cleaning, and analysis. Experienced with SQL Server Management Studio (SSMS) for database administration and performance tuning.</p>
+    <h5>• Testing & Version Control:</h5> <p>Implemented unit and automated testing frameworks to ensure software reliability. Experienced in Git for collaborative development, branching strategies, and version tracking.</p>
+    <h5>• Agile Development Practices:</h5> <p>Worked with SDLC, Scrum, and Agile methodologies to manage complex projects, ensuring timely delivery while maintaining quality standards.</p>
+    <h5>• Systems & Infrastructure:</h5> <p>Experienced with Linux (Ubuntu) and Windows. Built and configured personal dual-boot development environment to support AI model training and experimentation.</p>
+        </div>
+        <div class="col" id="gridresume">
+          <h3>Additional skills Gained Through In-House University Work Experience</h3>
+          <h5>Educational Breakout Game Project</h5>
+              <p>• As a group coordinated with a client through bi-weekly meetings, developing strong stakeholder communication skills and ensuring alignment on key project decisions.</p>
+            <p> • Collaborated using GitLab for version control and team-based development, contributing to different components of the project.</p>
+    <p>• Designed and implemented interactive mini-games by learning and applying the JavaScript 2D rendering engine PixiJS, demonstrating adaptability and rapid acquisition of new technical skills.</p>
+    <p>• Integrated games seamlessly into the broader website, requiring effective teamwork, clear communication, and synchronization of update cycles.</p>
+    <p>• Developed problem-solving and project management skills by adjusting timelines to accommodate challenges while maintaining smooth performance and overall project quality.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div style="height: 200px;"></div>
+    <!--https://codersblock.com/blog/anchor-links-and-how-to-make-them-awesome/-->
+    <div id="a4" class="container-fluid mt-3 col-sm-10" style="scroll-margin-top: 60px; padding-left: 75px; padding-right: 75px">
+      <h3>Portfolio</h3>
+      <p>
+        This is a collection of some of the projects i have completed. Hover over a project for a quick summary and click for more information about the project.
+      </p>
+       <div class="row">
+        <!--https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/-->
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/imagegenproj.html'" id="boxess">
+          <h6>AI image generation project</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/london.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h6>Generating art using diffusion and GANs based on artwork found in a museum</h6>
+                <p>Skills: Python, PyTorch, HuggingFace, QT6, Flask, GANs, DDPMs</p>
+                <p style="font-size: small;">I used a dataset of Van Gogh paintings with a basic GAN, DCGAN, CycleGan, and DDPM written from scratch with a user interface in html with flask, and an offline interface with QT6</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/groupPuzzlegame.html'" id="boxess">
+            <h6>Group breakout game project</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/puzzley.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>Group breakout game in-house work experience</h5>
+                <p>Skills: JavaScript, PixiJS, RazorPages, Game Design</p>
+                <p>I worked as a programmer as part of a team to develop a breakout puzzle game focused on secondary school level computer science for a client</p>
+              </div>
+            </div>
+          </div> 
+          </button>
+        </div> 
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/datawarehouseproj.html'" id="boxess">
+            <h6>Data Warehouse</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/dwim.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h6>Creating a data warehouse from a set of sales data sets</h6>
+                <p>Skills: SQL, Python, PANDAS, working with JSON and CSV files</p>
+                <p style="font-size: small;">I created a datawarehouse from 3 seperate datasets with many catagories, i exported the data to an ODS in Pandas and proccessed the data and then exported the data to my self designed data warehouse</p>
+              </div>
+            </div>
+          </div> 
+          </button>
+        </div> 
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/restuarantproj.html'" id="boxess">
+            <h6>restaurant website</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/rest.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>creating a restuarant website with Razor Pages</h5>
+                <p>Skills: Razor Pages, .NET, Plesk, SQL, SSMS, C#</p>
+                <p>I created a restuarant website with razor pages, and a connected database and deployed it to plesk</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/sdl2proj.html'" id="boxess">
+            <h6>SDL2 game</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/sdl2pic.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>Creating a game in C++ with SDL2</h5>
+                <p>Skills: C++, SDL2</p>
+                <p>I created a basic SDL2 game where the enemies go towards the player in the middle like a basic vampire survivors. This was limtied to only the SDL2 library and my own assets</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div> 
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/blackjackproj.html'" id="boxess">
+            <h6>C++ Blackjack</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/blackjack.webp" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>Creating a console game of blackjack in C++</h5>
+                <p>Skills: C++</p>
+                <p>Implementing blackjack into c++ and playing through the game in the console.</p>
+              </div>
+            </div>
+          </div> 
+          </button>
+        </div> 
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/testingproj.html'" id="boxess">
+            <h6>Basic Bank Testing project</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/testing.png" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>Bank testing in C++</h5>
+                <p>Skills: C++, Creating Tests</p>
+                <p>I created tests for as part of group to test a basic bank program in C++. We used a range of tests and made suggestions for improvements.</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/rproject.html'" id="boxess">
+            <h6>Data analysis using R</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/imgR.webp" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;padding: 5px;">
+                <h5>I analysed a dataset with the help of R and made a report with graphs from R</h5>
+                <p>Skills: R, Data Analysis</p>
+                <p>I analysed a csv dataset from a questionnaire on AI usage and ethics. I created tables with comparing key categories. I created appropriate graphs for analysis also.</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col" id="boxess">
+          <button onclick="location.href='./pages/geneticpathproj.html'" id="boxess">
+            <h6>Genetic Algorithm shortest path</h6>
+          <div class="flip-card" style="width:300px;height:300px;background-color:#4e4e94;border: 1px solid #4e4e94;"><!--https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/genetic-algorithm.avif" alt="Avatar" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+              </div>
+              <div class="flip-card-back" style="width:300px;height:300px;background-color:#6363bf;border: 2px solid #e66d4c;">
+                <h5>Genetic Algorithm shortest path</h5>
+                <p>Skills: C++, Genetic Algorithms, A*</p>
+                <p>I implemented a genetic algorithm in C++ for a 6x4 map with 5 different variations. The time taken was compared to the performance of A* on the maps.</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div> 
+      </div>
+      <!--clustering, business(Nintendo Switch)-->
+      
+    </div>
+    <div style="height: 100px;"></div>
+    <div id="a5" class="container-fluid mt-3" style="text-align: center; border-top: 1px solid #e66d4c;padding-top:80px">
+      <h3>Contact</h3>
+      <p>email: <a style="color:burlywood;text-decoration: underline;" href="mailto:andras.gotts@outlook.com">andras.gotts@outlook.com</a></p>
+      <p>linkedin: <a style="color:burlywood;text-decoration: underline;" href="https://www.linkedin.com/in/andrasgotts/">linkedin/andrasgotts</a></p>
+      <p><a style="color:burlywood;text-decoration: underline;" href="#">top</a></p>
+    </div>
+
+  </body>
+</div>
+
+<script>
+  //https://github.com/qrohlf/trianglify;
+
+</script>
+
+</html>
