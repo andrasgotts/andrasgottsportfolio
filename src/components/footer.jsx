@@ -25,7 +25,7 @@ function FooterThis() {
           <aside className="grid-flow-col items-center text-white">
             <p>
               {" "}
-              ©2025{" "}
+              ©2026{" "}
               <a className="link link-hover font-medium text-white" href="#">
                 Andras Gotts
               </a>{" "}
