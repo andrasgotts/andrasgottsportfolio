@@ -69,25 +69,31 @@ function ResumeMainR() {
             <h2 className="font-bold underline">Technical Skills</h2>
             <pre>
               <p className="text-wrap">
-                <h4>● Programming &amp; Software Development : </h4>Proficient
-                in Python and C++, with practical experience applying SOLID and
-                OOP principles. Built AI models (GAN, DCGAN, CycleGAN, DDPM)
-                using PyTorch, showcasing rapid self-learning and adaptability.
-                Developed custom interfaces in QT6 to deliver user-friendly AI
-                tools. <br />
-                <p className="text-wrap">
-                  <h4>● Web Development : </h4>Designed and deployed responsive applications 
-                  using HTML, CSS, JavaScript, Bootstrap, 
-                  and stacks involving (Tailwind, React and Astro), 
-                  (Razor Pages, C#, .net, SSMS, plesk), Flask, and PixiJS. 
-                  Delivered projects with a focus on performance optimization, accessibility, and maintainability.
+                <h4>● Programming &amp; Software Development : </h4>
+                <p>
+                  Proficient in Python and C++, with practical experience
+                  applying SOLID and OOP principles. Built AI models (GAN,
+                  DCGAN, CycleGAN, DDPM) using PyTorch, showcasing rapid
+                  self-learning and adaptability. Developed custom interfaces in
+                  QT6 to deliver user-friendly AI tools.{" "}
                 </p>
+                <br />
+                <p className="text-wrap">
+                  <h4>● Web Development : </h4>Designed and deployed responsive
+                  applications using HTML, CSS, JavaScript, Bootstrap, and
+                  stacks involving (Tailwind, React and Astro), (Razor Pages,
+                  C#, .net, SSMS, plesk), Flask, and PixiJS. Delivered projects
+                  with a focus on performance optimization, accessibility, and
+                  maintainability.
+                </p>
+                <br />
                 <p className="text-wrap">
                   <h4>Data &amp; ● Database Management : </h4>Skilled in SQL, R,
                   and Pandas for data querying, cleaning, and analysis.
                   Experienced with SQL Server Management Studio (SSMS) for
                   database administration and performance tuning.
                 </p>
+                <br />
                 <p className="text-wrap">
                   <h4>● Testing &amp; Version Control : </h4>
                   <p>
@@ -96,13 +102,18 @@ function ResumeMainR() {
                     development, br/anching strategies, and version tracking.
                   </p>
                 </p>
+                <br />
                 <p className="text-wrap">
                   <h4>● Agile Development Practices : </h4>Worked with SDLC,
                   Scrum, and Agile methodologies to manage complex projects,
                   ensuring timely delivery while maintaining quality standards.
                 </p>
+                <br />
                 <p className="text-wrap">
-                  <h4>● Systems &amp; Infrastructure : </h4>Experienced with Linux (Ubuntu, CachyOS) and Windows. Built and configured personal dual-boot development environment to support AI model training and experimentation.
+                  <h4>● Systems &amp; Infrastructure : </h4>Experienced with
+                  Linux (Ubuntu, CachyOS) and Windows. Built and configured
+                  personal dual-boot development environment to support AI model
+                  training and experimentation.
                 </p>
               </p>
             </pre>
@@ -134,11 +145,12 @@ function ResumeMainR() {
               <strong>Password manager (C#, SQLlitePCL, xunit)</strong>
               <br />
               <p>
-                ● Created a password manager that uses encrypted databases to store logins, and can only be accessed via a password. Users can delete, add, and view logins using a basic console interface. Testing done using xunit.
-              
+                ● Created a password manager that uses encrypted databases to
+                store logins, and can only be accessed via a password. Users can
+                delete, add, and view logins using a basic console interface.
+                Testing done using xunit.
               </p>
               <br />
-
               <strong>Banking Application Testing (C++)</strong>
               <br />
               <p>
@@ -148,7 +160,6 @@ function ResumeMainR() {
                 functionality.
               </p>
               <br />
-
               <strong>
                 Game Development: SDL2 Platformer &amp; Console Blackjack (C++)
               </strong>
@@ -220,11 +231,21 @@ function ResumeMainR() {
 
             <h2 className="font-bold underline">VOLUNTARY EXPERIENCE</h2>
 
-<h4>Barnardo’s superstore – York, UK</h4>
+            <h4>Barnardo’s superstore – York, UK</h4>
 
-<h4>Retail Online Research Volunteer  April 2026 - Current</h4>
-<p>
-Barnardo’s gets lots of donations, some of these can be quite valuable. If a volunteer who is seperating donations thinks an item could be worth more than £25, then they will put it in a a seperate room rather than straight into the shop store. My role is to research these items to see whether or not they are actually valuable, if they are then I create a listing for the item, add the gift aid persons ID if applicable, and then add a label with the listing ID to the item. I fill up a box with items and when its full, I tape it up, tape a store ebay Id printed piece of paper to the box, and then take the box to the warehouse and place with the other ebay boxes.
+            <h4>Retail Online Research Volunteer April 2026 - Current</h4>
+            <p>
+              Barnardo’s gets lots of donations, some of these can be quite
+              valuable. If a volunteer who is seperating donations thinks an
+              item could be worth more than £25, then they will put it in a a
+              seperate room rather than straight into the shop store. My role is
+              to research these items to see whether or not they are actually
+              valuable, if they are then I create a listing for the item, add
+              the gift aid persons ID if applicable, and then add a label with
+              the listing ID to the item. I fill up a box with items and when
+              its full, I tape it up, tape a store ebay Id printed piece of
+              paper to the box, and then take the box to the warehouse and place
+              with the other ebay boxes.
             </p>
             <br />
             <br />
@@ -232,7 +253,6 @@ Barnardo’s gets lots of donations, some of these can be quite valuable. If a v
             <pre>
               <p className="text-wrap">
                 ● Learn React Course – Code Academy – October 24, 2025
-                
               </p>
               <p>● Learn C# – Code Academy – November 6, 2025</p>
             </pre>
