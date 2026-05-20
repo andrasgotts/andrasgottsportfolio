@@ -4,7 +4,7 @@ function ExperienceMainR() {
       <div className="relative">
         {/* background??? */}
         <div className="w-full h-full absolute z-2 pointer-events-none"></div>
-        <div className="grid grid-cols-8 grid-rows-6 gap-4 bg-[#0d0f12] z-10 font-poppins">
+        <div className="grid grid-cols-8 grid-rows-10 gap-4 bg-[#0d0f12] z-10 font-poppins">
           {/*about me */}
           <div
             id="main1"
@@ -12,7 +12,7 @@ function ExperienceMainR() {
           >
             <div>
               <div className="grid grid-flow-col grid-rows-3 gap-4">
-                <div className="row-span-6 ...  border-2 rounded-xl p-2">
+                <div className="row-span-30 ...  border-2 rounded-xl p-2">
                   <img
                     src="/andrasgottsportfolio/Barnados-logo.png"
                     alt="Barnados"
@@ -42,30 +42,6 @@ function ExperienceMainR() {
                       warehouse and place with the other ebay boxes.
                     </p>
                   </p>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
                 </div>
               </div>
             </div>
