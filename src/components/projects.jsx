@@ -9,6 +9,7 @@ import {
   SDL2GameProj,
   CppBlackjackProj,
   BankTestingProj,
+  CsharpPassManagerProj,
 } from "./dataprojs";
 
 function ProjectsR() {
@@ -138,6 +139,7 @@ function ProjectsR() {
             >
               <div className="grid grid-cols-8 grid-rows-12 gap-4 bg-[#0d0f12] z-10 font-poppins">
                 <CppBlackjackProj />
+                <CsharpPassManagerProj />
               </div>
             </div>
             <div

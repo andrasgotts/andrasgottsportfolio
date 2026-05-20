@@ -86,6 +86,10 @@ function ProjectGroups() {
                   ● Implemented a genetic algorithm for to find the fastest path
                   and compare the results to A* and Dijkstra's algorithm
                 </p>
+                <p>
+                  ● Implemented a K means Clustering from scratch in python, and use it on
+                  a dataset of countries with their GDP and development indicators
+                </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     python
@@ -132,9 +136,8 @@ function ProjectGroups() {
                   for my main project, making a data warehouse, etc...
                 </p>
                 <p>
-                  ● C#, this is the Language I am currently learning. I have
-                  worked with C# before in unity, and on my restaurant website
-                  project.
+                  ● C#, used asp.net to make a restuarant website, used for game making,
+                  and general learning - I made a password manager.
                 </p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
@@ -144,7 +147,7 @@ function ProjectGroups() {
                     python
                   </button>
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
-                    future (c#)
+                    c#
                   </button>
                 </div>
               </div>
@@ -234,6 +237,7 @@ function ProjectGroups() {
                   testing library
                 </p>
                 <p>● Audited a website</p>
+                <p>● xunit for testin c# password manager project</p>
                 <div className="flex flex-wrap">
                   <button className="btn btn-outline btn-primary rounded-full btn-sm">
                     c++ test framework

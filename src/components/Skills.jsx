@@ -75,9 +75,9 @@ function Skills() {
         {/**TypeScript */}
         <div className="card bg-[#0d0f12]">
           <figure>
-            <span className="text-white icon-[tabler--brand-typescript] size-25"></span>
+            <span className="text-white icon-[tabler--brand-c-sharp] size-25"></span>
           </figure>
-          <h2 className="text-center">TypeScript</h2>
+          <h2 className="text-center">C#</h2>
         </div>
         {/**JavaScript */}
         <div className="card bg-[#0d0f12]">

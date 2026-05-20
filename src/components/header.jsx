@@ -39,6 +39,14 @@ function HeaderThis() {
                   Education
                 </a>
               </li>
+              <li>
+                <a
+                  href="/cyan-corot/experience"
+                  className="text-white"
+                >
+                  Experience
+                </a>
+              </li>
 
               <li>
                 <a href="/cyan-corot/contact" className="text-white">

@@ -352,4 +352,41 @@ export function BankTestingProj() {
   );
 }
 
+export function CsharpPassManagerProj() {
+  return (
+    <>
+      <div
+        id="main1"
+        className="col-span-6 col-start-2 row-span-2 bg-[#0d0f12] border-2 rounded-xl p-2 text-white"
+      >
+        <div className="grid grid-flow-col grid-rows-3 gap-4">
+          <div className="row-span-3 ...  border-2 rounded-xl p-2">
+            images?
+            <Img src="/andrasgottsportfolio/projimgs/testing.webp" />
+          </div>
+          <div className="col-span-2 ...  border-2 rounded-xl p-2">
+            <h1>Hi, I'm Andras Gotts</h1>
+            <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
+              Password manager
+            </h2>
+          </div>
+          <div className="col-span-2 row-span-2 ... border-2 rounded-xl p-2">
+            <p>beepidy boop</p>
+          </div>
+          <div className="col-span-2 row-span-3 ... border-2 rounded-xl p-2">
+            <h5>Password manager in C#</h5>
+            <p>Skills: C#, SQLlitePCL, xunit</p>
+            <p>
+              Created a password manager that uses encrypted databases to store logins, 
+              and can only be accessed via a password. 
+              Users can delete, add, and view logins using a basic console interface. 
+              Testing done using xunit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 export default MainProj;
