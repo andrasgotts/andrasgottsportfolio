@@ -13,6 +13,7 @@ function ExperienceMainR() {
             <div>
               <div className="grid grid-flow-col grid-rows-3 gap-4">
                 <div className="row-span-3 ...  border-2 rounded-xl p-2">
+                  <img src="/cyan-corot/Barnados-logo.png" alt="Barnados" />
                   <p>
                                 <h2 className="font-bold underline">VOLUNTARY EXPERIENCE</h2>
 
