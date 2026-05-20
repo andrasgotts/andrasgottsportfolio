@@ -1,4 +1,7 @@
-function ExperienceMainR() {
+function ContactMainR() {
+  const themailto = () => {
+    window.location.href = "mailto:andras.gotts@outlook.com";
+  };
   return (
     <>
       <div className="relative">
@@ -13,22 +16,20 @@ function ExperienceMainR() {
             <div>
               <div className="grid grid-flow-col grid-rows-3 gap-4">
                 <div className="row-span-3 ...  border-2 rounded-xl p-2">
-                  <img src="/andrasgottsportfolio/Barnados-logo.png" alt="Barnados" />
                   <p>
-                                <h2 className="font-bold underline">VOLUNTARY EXPERIENCE</h2>
-
-<h4>Barnardo’s superstore – York, UK</h4>
-
-<h4>Retail Online Research Volunteer  April 2026 - Current</h4>
-<p>
-Barnardo’s gets lots of donations, some of these can be quite valuable. If a volunteer who is seperating donations thinks an item could be worth more than £25, then they will put it in a a seperate room rather than straight into the shop store. My role is to research these items to see whether or not they are actually valuable, if they are then I create a listing for the item, add the gift aid persons ID if applicable, and then add a label with the listing ID to the item. I fill up a box with items and when its full, I tape it up, tape a store ebay Id printed piece of paper to the box, and then take the box to the warehouse and place with the other ebay boxes.
-            </p>
+                    <button
+              className="btn btn-circle btn-text [--btn-color:#2b3137]"
+              aria-label="mail"
+              onClick={themailto}
+            >
+              <span className="icon-[tabler--mail] size-8 shrink-0"></span>
+            </button>
                   </p>
                 </div>
                 <div className="col-span-2 ...  border-2 rounded-xl p-2">
                   <h1>Hi, I'm Andras Gotts</h1>
                   <h2 className="font-bold font-SF leading-snug tracking-tight text-teal-400 mx-auto w-full text-2xl lg:max-w-3xl lg:text-5xl">
-                    Education!!!!eeeeeeeeeeeeee
+                    Education!!!!
                   </h2>
                 </div>
                 <div className="col-span-2 row-span-2 ...  border-2 rounded-xl p-2">
@@ -222,4 +223,4 @@ Barnardo’s gets lots of donations, some of these can be quite valuable. If a v
     </>
   );
 }
-export default ExperienceMainR;
+export default ContactMainR;
