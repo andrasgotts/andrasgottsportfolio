@@ -245,6 +245,8 @@ Barnardo’s gets lots of donations, some of these can be quite valuable. If a v
                 Travelling <br />● Tinkering with hardware <br />● Football
               </p>
             </pre>
+            <br />
+            <br />
             <h2 className="font-bold">References available on request</h2>
           </div>
         </div>

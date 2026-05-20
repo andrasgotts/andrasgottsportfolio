@@ -1,9 +1,8 @@
 import SplashCursor from "./SplashCursor";
-
+//<SplashCursor />
 function HeaderThis() {
   return (
     <>
-      <SplashCursor />
       <header className="bg-[#0d0f12] font-poppins">
         <nav className="navbar rounded-box shadow-base-300/20 shadow-sm py-4 px-4">
           <div className="navbar-start items-center justify-between max-md:w-full">
@@ -21,16 +20,13 @@ function HeaderThis() {
                   Home
                 </a>
               </li>
+
               <li>
                 <a href="/andrasgottsportfolio/projects" className="text-white">
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="/andrasgottsportfolio/resume" className="text-white">
-                  Resume
-                </a>
-              </li>
+
               <li>
                 <a
                   href="/andrasgottsportfolio/education"
@@ -39,12 +35,19 @@ function HeaderThis() {
                   Education
                 </a>
               </li>
+
               <li>
                 <a
                   href="/andrasgottsportfolio/experience"
                   className="text-white"
                 >
                   Experience
+                </a>
+              </li>
+
+              <li>
+                <a href="/andrasgottsportfolio/resume" className="text-white">
+                  Resume
                 </a>
               </li>
 
